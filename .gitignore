@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# environment variables
+.env
+
+# IDE
+.vscode/
+
+# java
+target/
+
+# node
+node_modules/
+
+# log files
+*.log
