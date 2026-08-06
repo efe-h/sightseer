@@ -1,0 +1,4602 @@
+[
+    {
+        "wikidata_id": "Q2918086",
+        "name": "Museum of the Home",
+        "category": "museum",
+        "description": "museum in London, specializing in the history of the English domestic interior",
+        "latitude": 51.531738888,
+        "longitude": -0.076219444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cmglee%20London%20Geffrye%20Museum%20front.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1990172",
+        "name": "Sherlock Holmes Museum",
+        "category": "museum",
+        "description": "museum in London, England",
+        "latitude": 51.523694444,
+        "longitude": -0.161,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/221B%20Baker%20Street%2C%20London%20-%20Sherlock%20Holmes%20Museum.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1628487",
+        "name": "Horniman Museum and Gardens",
+        "category": "museum",
+        "description": "museum in Forest Hill, London, England, United Kingdom",
+        "latitude": 51.440555555,
+        "longitude": -0.060833333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Horniman%20Museum%20tower%2C%202015.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5474645",
+        "name": "Foundling Museum",
+        "category": "museum",
+        "description": "museum in Bloomsbury, London, England, United Kingdom",
+        "latitude": 51.525272,
+        "longitude": -0.121686,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Foundling%20Museum%20-Brunswick%20Square%20-London%20-15July2009.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7858373",
+        "name": "Twinings Museum",
+        "category": "museum",
+        "description": "tea shop in Westminster, London, England, UK",
+        "latitude": 51.513255,
+        "longitude": -0.112852,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20twinings%2009.03.2013%2014-50-30.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1283541",
+        "name": "Royal Armouries",
+        "category": "museum",
+        "description": "national museum of arms and armour, United Kingdom",
+        "latitude": 51.508545,
+        "longitude": -0.07631,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Royal%20Armouries%2C%20Clarence%20Dock%20-%20geograph.org.uk%20-%20359138.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4836762",
+        "name": "BT Museum",
+        "category": "museum",
+        "description": "former museum of British Telecom",
+        "latitude": 51.5119,
+        "longitude": -0.101223,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Baynard%20House%2C%20Queen%20Victoria%20Street%2C%20London%20EC4.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q674773",
+        "name": "Science Museum",
+        "category": "museum",
+        "description": "science museum in London, United Kingdom",
+        "latitude": 51.4975,
+        "longitude": -0.174722222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Science%20Museum%2C%20Exhibition%20Road%20%28cropped%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3329769",
+        "name": "Westminster Abbey Museum",
+        "category": "museum",
+        "description": "former museum at Westminster Abbey, London, England",
+        "latitude": 51.4988,
+        "longitude": -0.12753,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q192988",
+        "name": "Royal Observatory",
+        "category": "museum",
+        "description": "observatory in Greenwich, London, UK",
+        "latitude": 51.477833333,
+        "longitude": -0.001388888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20observatory%20greenwich.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1513107",
+        "name": "London Dungeon",
+        "category": "museum",
+        "description": "Tourist attraction in London",
+        "latitude": 51.505561111,
+        "longitude": -0.085830555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20The%20London%20Dungeon%20-%20panoramio.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7723415",
+        "name": "The Clink",
+        "category": "museum",
+        "description": "former prison in Southwark, England",
+        "latitude": 51.507077777,
+        "longitude": -0.091930555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20clink%20prison%20museum%2020050521.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6670434",
+        "name": "London Gas Museum",
+        "category": "museum",
+        "description": "former museum",
+        "latitude": 51.5222,
+        "longitude": -0.005,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Gas%20Museum%2C%20Twelvetrees%20Crescent%20%28geograph%205720663%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q682917",
+        "name": "Royal Artillery Museum",
+        "category": "museum",
+        "description": "closed military museum in London, United Kingdom",
+        "latitude": 51.4939,
+        "longitude": 0.0708333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Firepower%20-%20geograph.org.uk%20-%2057579.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7370705",
+        "name": "Rotunda",
+        "category": "museum",
+        "description": "building in Woolwich, London, United Kingdom",
+        "latitude": 51.4842,
+        "longitude": 0.053,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rotunda%20Woolwich%20Geograph%20972034%20de9efc08.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4796396",
+        "name": "Arsenal Football Club Museum",
+        "category": "museum",
+        "description": "sports museum in London",
+        "latitude": 51.5565,
+        "longitude": -0.108103,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20Arsenal%20Football%20Club%20Museum.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5134817",
+        "name": "Clockmakers' Museum",
+        "category": "museum",
+        "description": "Museum of the Clockmakers' Company, London, United Kingdom",
+        "latitude": 51.5164,
+        "longitude": -0.0930556,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Science%20Museum%20%28London%29%2013.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q644281",
+        "name": "Young V&A",
+        "category": "museum",
+        "description": "national museum in Bethnal Green, London, United Kingdom",
+        "latitude": 51.529055555,
+        "longitude": -0.054888888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/V%26A%20Museum%20of%20Childhood.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6397882",
+        "name": "London Museum of Water and Steam",
+        "category": "museum",
+        "description": "museum in London, United Kingdom",
+        "latitude": 51.489,
+        "longitude": -0.2904,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Museum%20of%20Water%20%26%20Steam%20entrance.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3313296",
+        "name": "Dennis Severs' House",
+        "category": "museum",
+        "description": "museum in the London Borough of Tower Hamlets",
+        "latitude": 51.520916,
+        "longitude": -0.077925,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dennis%20Severs%20House%20%2815290690150%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q12053739",
+        "name": "Brunel Museum",
+        "category": "museum",
+        "description": "museum in Rotherhithe, London, England, United Kingdom",
+        "latitude": 51.5016,
+        "longitude": -0.053,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Brunel%20museum%20mural.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4064609",
+        "name": "Amora London",
+        "category": "museum",
+        "description": "European touring exhibition dedicated to love, relationships and sexual wellbeing",
+        "latitude": 51.5103,
+        "longitude": -0.133889,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5116592",
+        "name": "Church Farmhouse Museum",
+        "category": "museum",
+        "description": "former museum in Barnet, London",
+        "latitude": 51.5913,
+        "longitude": -0.2282,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Church%20Farmhouse%20Museum.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3868648",
+        "name": "Musical Museum",
+        "category": "museum",
+        "description": "music museum in London, United Kingdom",
+        "latitude": 51.4879,
+        "longitude": -0.2931,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Musical%20Museum%2C%20Brentford%2C%20London..jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6940881",
+        "name": "Museum of Immigration and Diversity",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.5199,
+        "longitude": -0.0725,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/19%20Princelet%20Street%2C%20Spitalfields%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5436764",
+        "name": "Fashion and Textile Museum",
+        "category": "museum",
+        "description": "building in the United Kingdom",
+        "latitude": 51.498611111,
+        "longitude": -0.081111111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fashion%20and%20Textile%20Museum%2C%20Bermondsey%2C%20SE1%20%283612012652%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q250522",
+        "name": "Heralds' Museum",
+        "category": "museum",
+        "description": "former museum in the Tower of London",
+        "latitude": 51.508055555,
+        "longitude": -0.076111111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/South%20face%20of%20the%20Waterloo%20Barracks%2C%20Tower%20of%20London%2C%202009.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1568148",
+        "name": "Jewel Tower",
+        "category": "museum",
+        "description": "medieval tower in Westminster, London, England, UK",
+        "latitude": 51.4984,
+        "longitude": -0.126472,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jewel%20Tower.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6941110",
+        "name": "Museum of the Order of St John",
+        "category": "museum",
+        "description": "museum in London, England, United Kingdom",
+        "latitude": 51.5219,
+        "longitude": -0.10257,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%27s%20Gate%2C%20Clerkenwell%20-%20London..jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q62378",
+        "name": "Tower of London",
+        "category": "museum",
+        "description": "castle in central London, United Kingdom",
+        "latitude": 51.5082,
+        "longitude": -0.076198055,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20London%20viewed%20from%20the%20River%20Thames.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5187495",
+        "name": "Crofton Roman Villa",
+        "category": "museum",
+        "description": "Roman villa in Orpington, in the London Borough of Bromley",
+        "latitude": 51.3731,
+        "longitude": 0.0876875,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Crofton%20Roman%20Villa%20-%20geograph.org.uk%20-%20612839.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5460739",
+        "name": "Florence Nightingale Museum",
+        "category": "museum",
+        "description": "museum in London, United Kingdom, about life of Florence Nightingale and modern nursing",
+        "latitude": 51.5003,
+        "longitude": -0.1175,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Florence%20Nightingale%20Museum%20-%20Joy%20of%20Museums.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7596624",
+        "name": "Stafford Gallery",
+        "category": "museum",
+        "description": "early 20th century art gallery",
+        "latitude": 51.5088,
+        "longitude": -0.140833,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spencer%20Gore%20Gauguins%20and%20Connoisseurs%20at%20the%20Stafford%20Gallery%201911.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1408799",
+        "name": "London Mithraeum",
+        "category": "museum",
+        "description": "mithraeum discovered at Walbrook, London, United Kingdom",
+        "latitude": 51.512679,
+        "longitude": -0.091671,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Mithraeum%2C%20Bloomberg%E2%80%99s%20European%20headquarters%2C%20London%20%2825502116578%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2583240",
+        "name": "Wimbledon Lawn Tennis Museum",
+        "category": "museum",
+        "description": "museum in England",
+        "latitude": 51.434722222,
+        "longitude": -0.213333333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wimbledon%20Lawn%20Tennis%20Museum%20%28485259229%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7373577",
+        "name": "Royal Academy of Music Museum",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.5233,
+        "longitude": -0.1521,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Full%20Strings%20gallery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6387155",
+        "name": "Kempton Steam Museum",
+        "category": "museum",
+        "description": "history museum in London",
+        "latitude": 51.425566,
+        "longitude": -0.40368,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20William%20Prescott%20Engine.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1417172",
+        "name": "Royal Asiatic Society of Great Britain and Ireland",
+        "category": "museum",
+        "description": "Learned society in the field of Asian studies in the United Kingdom",
+        "latitude": 51.526525195,
+        "longitude": -0.135332174,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1073042",
+        "name": "Chiltern Open Air Museum",
+        "category": "museum",
+        "description": "Museum in the Chiltern Hills, United Kingdom",
+        "latitude": 51.6364,
+        "longitude": -0.541403,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chiltern%20Open%20Air%20Museum%20Henton%20Mission.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6373",
+        "name": "British Museum",
+        "category": "museum",
+        "description": "national museum in London, United Kingdom",
+        "latitude": 51.519444444,
+        "longitude": -0.126944444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Museum%20from%20NE%202%20%28cropped%29.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5433566",
+        "name": "Fan Museum",
+        "category": "museum",
+        "description": "museum in London, England, United Kingdom",
+        "latitude": 51.4786,
+        "longitude": -0.00777778,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Fan%20Museum%20%283400819225%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1464767",
+        "name": "Royal United Services Institute",
+        "category": "museum",
+        "description": "British defence and security think tank",
+        "latitude": 51.5043,
+        "longitude": -0.1258,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RUSI%2C%20the%20Royal%20United%20Services%20Institute%20headquarters%2C%20built%20in%201894.png",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5225616",
+        "name": "Dartford Library",
+        "category": "museum",
+        "description": "public library and museum in Dartford, Kent, England, UK",
+        "latitude": 51.4431,
+        "longitude": 0.218889,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/DartfordMuseumLibrary3791.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1753590",
+        "name": "Old Royal Naval College",
+        "category": "museum",
+        "description": "architectural landmark in Greenwich, London and UNESCO World Heritage Site",
+        "latitude": 51.483666666,
+        "longitude": -0.005944444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RNCpano.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q764804",
+        "name": "Kenwood House",
+        "category": "museum",
+        "description": "art museum and historic house in Hampstead, London",
+        "latitude": 51.571388888,
+        "longitude": -0.1675,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hampstead%20Heath%20%2C%20Kenwood%20House%20-%20geograph.org.uk%20-%207691885.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3918721",
+        "name": "Francis Skaryna Belarusian Library and Museum",
+        "category": "museum",
+        "description": "library",
+        "latitude": 51.6162,
+        "longitude": -0.1848,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Belarusian%20library%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6415564",
+        "name": "Kirkaldy Testing Museum",
+        "category": "museum",
+        "description": "museum in Southwark, London, England, UK",
+        "latitude": 51.50596007,
+        "longitude": -0.101569037,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirkaldy%20Testing%20Works%20%28Historic%20Southwark%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5214692",
+        "name": "Dana Library and Research Centre",
+        "category": "museum",
+        "description": "part of the Science Museum in London",
+        "latitude": 51.4971,
+        "longitude": -0.179,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/DanaCentreQueensgate-02.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4921367",
+        "name": "The Crime Museum",
+        "category": "museum",
+        "description": "Collection of criminal memorabilia in London formerly known as the Black Museum",
+        "latitude": 51.498611111,
+        "longitude": -0.133055555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Crime%20Museum%20at%20NSY%20%28Broadway%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3520122",
+        "name": "The Postal Museum",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.524,
+        "longitude": -0.1126,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Postal%20Museum%20%28London%29%20Air%20Mail%20Post%20Box.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6770967",
+        "name": "Markfield Beam Engine and Museum",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.581881,
+        "longitude": -0.061502,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Markfield%20Road%20Pumping%20Station%20-%20geograph.org.uk%20-%201617805.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26689465",
+        "name": "Heath Robinson Museum",
+        "category": "museum",
+        "description": "museum in northwest London, United Kingdom, about W. Heath Robinson",
+        "latitude": 51.5925,
+        "longitude": -0.3867,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Heath%20Robinson%20Museum%20exterior%202%20by%20Tom%20Fish.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7966632",
+        "name": "Walthamstow Pump House Museum",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.576747,
+        "longitude": -0.034501,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thae%20Walthamstow%20Pumphouse%20Museum%20Building.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q29364035",
+        "name": "Elstree and Borehamwood Museum",
+        "category": "museum",
+        "description": "museum in Borehamwood, Hertfordshire, United Kingdom",
+        "latitude": 51.655958,
+        "longitude": -0.274148,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q18748780",
+        "name": "Victoria and Albert Museum Spiral",
+        "category": "museum",
+        "description": "proposed (abandoned in 2004) controversial extension to the museum",
+        "latitude": 51.4967,
+        "longitude": -0.1733,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7076994",
+        "name": "October Gallery",
+        "category": "museum",
+        "description": "art gallery in London, UK",
+        "latitude": 51.5208,
+        "longitude": -0.1218,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/OctoberGallery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q65082071",
+        "name": "Eel Pie Island Museum",
+        "category": "museum",
+        "description": "music museum in Twickenham, Richmond upon Thames, London, England, UK",
+        "latitude": 51.4482,
+        "longitude": -0.3255,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Eel%20Pie%20Island%20Museum%2C%20Twickenham%20-%20London.%20%2835192973221%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q23891179",
+        "name": "Museum of Life Sciences",
+        "category": "museum",
+        "description": "natural history museum, University museum in London",
+        "latitude": 51.5028,
+        "longitude": -0.089629,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20of%20Life%20Sciences%20at%20King%27s%20College.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27987548",
+        "name": "Redbridge Museum",
+        "category": "museum",
+        "description": "museum and archive in United Kingdom",
+        "latitude": 51.55815,
+        "longitude": 0.07506,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Redbridge%20central%20library%20%2834980894720%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q55120586",
+        "name": "Hillingdon Museum and Archives Services",
+        "category": "museum",
+        "description": "local studies centre, archives and museum in London, United Kingdom",
+        "latitude": 51.545357,
+        "longitude": -0.478158,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q98203378",
+        "name": "The Museum of Practical Geology",
+        "category": "museum",
+        "description": "museum building at 28 Jermyn Street, London (now demolished)",
+        "latitude": 51.5096057,
+        "longitude": -0.1354343,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Museum%20of%20Practical%20Geology%2C%20Piccadilly%3B%20the%20entrance%20fa%20Wellcome%20V0013871.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7057420",
+        "name": "North Woolwich Old Station Museum",
+        "category": "museum",
+        "description": "former railway museum in North Woolwich, London, opened 1984, closed 2008",
+        "latitude": 51.499722222,
+        "longitude": 0.063055555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Northwoolwichorigrear.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q28835991",
+        "name": "Brent Museum and Archives",
+        "category": "museum",
+        "description": "Museum and archive in United Kingdom",
+        "latitude": 51.5467731,
+        "longitude": -0.2289227,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q65091588",
+        "name": "Museum of Freemasonry",
+        "category": "museum",
+        "description": "Masonic museum located in Freemasons' Hall in London, United Kingdom",
+        "latitude": 51.515111111,
+        "longitude": -0.121,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Library%20and%20Museum%20of%20Freemasonry%20-%20Museum%20North%20Gallery%20throne%202018.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15221398",
+        "name": "Garden Museum",
+        "category": "museum",
+        "description": "museum in London, United Kingdom, formerly the church of St Mary-at-Lambeth",
+        "latitude": 51.495,
+        "longitude": -0.1202,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Garden%20Museum%20%284632736506%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q48032180",
+        "name": "Hunterian Museum",
+        "category": "museum",
+        "description": "medical museum in London, United Kingdom",
+        "latitude": 51.51527778,
+        "longitude": -0.11583333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hunterian%20Collection.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7981191",
+        "name": "Wellcome Collection",
+        "category": "museum",
+        "description": "museum and library in London, United Kingdom",
+        "latitude": 51.525944444,
+        "longitude": -0.133888888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Wellcome%20Building.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q21585368",
+        "name": "Wimbledon Museum",
+        "category": "museum",
+        "description": "history museum in London, United Kingdom",
+        "latitude": 51.423547,
+        "longitude": -0.216683,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20of%20Wimbledon.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q16334468",
+        "name": "Peckham Platform",
+        "category": "museum",
+        "description": "art gallery in London",
+        "latitude": 51.473812,
+        "longitude": -0.069673,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Peckham%20Platform%20small.jpeg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q110687141",
+        "name": "Queer Britain",
+        "category": "museum",
+        "description": "LGBTQ+ museum in London",
+        "latitude": 51.535666666,
+        "longitude": -0.123861111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Queer%20Britain%2C%20proposed%20UK%20national%20LGBTQ%2B%20museum.png",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q21062363",
+        "name": "Clowns Gallery-Museum",
+        "category": "museum",
+        "description": "clowning Museum in Dalston, England",
+        "latitude": 51.54433333,
+        "longitude": -0.07313889,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q55098950",
+        "name": "Cell Project Space",
+        "category": "museum",
+        "description": "non-profit art gallery in Cambridge Heath Road, London",
+        "latitude": 51.5332,
+        "longitude": -0.0565,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cell%20Project%20Space%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7860886",
+        "name": "Type Museum",
+        "category": "museum",
+        "description": "London museum",
+        "latitude": 51.4742,
+        "longitude": -0.115556,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monotype%20-%20b%20%28236150424%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7898390",
+        "name": "Upminster Tithe Barn Museum of Nostalgia",
+        "category": "museum",
+        "description": "Museum in Upminster, London",
+        "latitude": 51.5668,
+        "longitude": 0.2569,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Upminster%20tithe%20barn%20south.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q29016276",
+        "name": "Potters Bar Museum",
+        "category": "museum",
+        "description": "museum in Hertfordshire, United Kingdom",
+        "latitude": 51.696239529,
+        "longitude": -0.193633608,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wyllyotts%20centre%20and%20Museum%20-%20geograph.org.uk%20-%203120595.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q30038729",
+        "name": "East Surrey Museum",
+        "category": "museum",
+        "description": "museum in Caterham, United Kingdom",
+        "latitude": 51.282037,
+        "longitude": -0.079096,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/East%20Surrey%20Museum%2C%20Caterham%20-%20geograph.org.uk%20-%203303256.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q29870903",
+        "name": "London Transport Museum Depot",
+        "category": "museum",
+        "description": "museum store, workshops and visitor attraction in London, England",
+        "latitude": 51.504618,
+        "longitude": -0.281308,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Transport%20Museum%20Depot.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15242658",
+        "name": "London Museum and Institute of Natural History",
+        "category": "museum",
+        "description": "former museum",
+        "latitude": 51.5117,
+        "longitude": -0.119,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15212575",
+        "name": "Dairy Art Centre",
+        "category": "museum",
+        "description": "British art gallery closed in 2014",
+        "latitude": 51.526012,
+        "longitude": -0.122019,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Greetings%20From%20a%20Place%20in%20My%20Heart%20%28exhibition%20view%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q81165750",
+        "name": "Gunnersbury Park Museum",
+        "category": "museum",
+        "description": "museum and archival institution in United Kingdom",
+        "latitude": 51.499543,
+        "longitude": -0.28642,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q61457665",
+        "name": "Elmbridge Museum",
+        "category": "museum",
+        "description": "museum in Surrey, England, United Kingdom",
+        "latitude": 51.369867,
+        "longitude": -0.361575,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27964070",
+        "name": "Passmore Edwards Museum",
+        "category": "museum",
+        "description": "former museum in Stratford, East London",
+        "latitude": 51.5432,
+        "longitude": 0.0097,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Passmore%20Edwards%20Museum%20September%202017.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q60794392",
+        "name": "Metropolitan Police Museum",
+        "category": "museum",
+        "description": "Law enforcement museum in London, England",
+        "latitude": 51.433676497,
+        "longitude": 0.10195895,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q50841513",
+        "name": "British Red Cross Museum and Archives",
+        "category": "museum",
+        "description": "medical archive and museum, United Kingdom",
+        "latitude": 51.519242311,
+        "longitude": -0.088515413,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q23406626",
+        "name": "Bethlem Museum of the Mind",
+        "category": "museum",
+        "description": "re-sited and relaunched art and medical museum, sited at the Bethlam Royal Hospital, Beckenham, London Borough of Bromley, United Kingdom",
+        "latitude": 51.380916666,
+        "longitude": 0.029694444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bethlem%20Royal%20Hospital%20Main%20building%20view%201.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15959073",
+        "name": "Sartorial Contemporary Art",
+        "category": "museum",
+        "description": "",
+        "latitude": 51.5286,
+        "longitude": -0.121667,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sartorial%20Contemporary%20Art%2C%20Argyle%20Square%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q23307690",
+        "name": "Crystal Palace Museum",
+        "category": "museum",
+        "description": "museum in London, England, United Kingdom",
+        "latitude": 51.419722222,
+        "longitude": -0.076611111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Crystal%20Palace%20Museum%20-%20geograph.org.uk%20-%204356680.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15242653",
+        "name": "London Museum",
+        "category": "museum",
+        "description": "former museum in London",
+        "latitude": 51.5052,
+        "longitude": -0.188,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lancaster%20House%20-%20geograph.org.uk%20-%20783896.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q21062368",
+        "name": "House of Dreams Museum",
+        "category": "museum",
+        "description": "art museum of tiles and sculpture in East Dulwich, London",
+        "latitude": 51.4603379,
+        "longitude": -0.07962,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/House%20of%20Dreams%2C%2042%20Melbourne%20Grove%2C%20East%20Dulwich%2C%202018%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q109996849",
+        "name": "Central Saint Martins Museum & Study Collection",
+        "category": "museum",
+        "description": "museum and art collection",
+        "latitude": 51.535555555,
+        "longitude": -0.125,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q21585359",
+        "name": "Jack the Ripper Museum",
+        "category": "museum",
+        "description": "museum in London",
+        "latitude": 51.510805,
+        "longitude": -0.067972,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack%20the%20Ripper%20Museum.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q104854327",
+        "name": "East End Women's Museum",
+        "category": "museum",
+        "description": "women's Museum in London Barking, United Kingdom",
+        "latitude": 51.533777777,
+        "longitude": 0.075333333,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q14993546",
+        "name": "Leverian collection",
+        "category": "museum",
+        "description": "natural history and ethnographic collection assembled by Ashton Lever",
+        "latitude": 51.510278,
+        "longitude": -0.130278,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Perspective%20interior%20view%20of%20Sir%20Ashton%20Lever%27s%20Museum%20in%20Leicester%20Square%2C%20London%20March%2030%201785.%20Watercolour%20by%20Sarah%20Stone.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q78779425",
+        "name": "Museum of Comedy",
+        "category": "museum",
+        "description": "Museum of comedic history and venue",
+        "latitude": 51.5174619,
+        "longitude": -0.1246396,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20of%20Comedy.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552830",
+        "name": "Church of St Mary, Lambeth",
+        "category": "museum",
+        "description": "former church in Lambeth, London. Currently part of Garden Museum",
+        "latitude": 51.495,
+        "longitude": -0.120122,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Mary-at-Lambeth%20%286265732043%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15224963",
+        "name": "Honourable Artillery Company Museum",
+        "category": "museum",
+        "description": "Regimental museum in London, England",
+        "latitude": 51.52277778,
+        "longitude": -0.08833333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Armoury%20House.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q28404123",
+        "name": "Newport Street Gallery",
+        "category": "museum",
+        "description": "Art gallery in London",
+        "latitude": 51.4933,
+        "longitude": -0.117,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Newport%20Street%20Gallery%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q11713080",
+        "name": "Pilsudski Institute of London",
+        "category": "museum",
+        "description": "",
+        "latitude": 51.4936,
+        "longitude": -0.23733,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London-POSK-1992.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1814654",
+        "name": "Whitechapel Gallery",
+        "category": "art_museum",
+        "description": "art gallery in the London Borough of Tower Hamlets",
+        "latitude": 51.516,
+        "longitude": -0.070485,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitechapel%20Gallery%20in%20August%202014.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4656907",
+        "name": "chairman Gallery",
+        "category": "art_museum",
+        "description": "contemporary art gallery in Wimbledon, London",
+        "latitude": 51.411,
+        "longitude": -0.2094,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1241163",
+        "name": "Dulwich Picture Gallery",
+        "category": "art_museum",
+        "description": "art gallery in Dulwich, South London, United Kingdom",
+        "latitude": 51.446111111,
+        "longitude": -0.086388888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dulwich%20Picture%20Gallery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q119160",
+        "name": "Museum of Domestic Design and Architecture",
+        "category": "art_museum",
+        "description": "museum and archive in the United Kingdom",
+        "latitude": 51.595888,
+        "longitude": -0.241567,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q12110695",
+        "name": "Courtauld Gallery",
+        "category": "art_museum",
+        "description": "art museum of the Courtauld Institute of Art, located in Somerset House, London",
+        "latitude": 51.511568,
+        "longitude": -0.117712,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Somerset%20House%2C%20Strand.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q591086",
+        "name": "Serpentine Galleries",
+        "category": "art_museum",
+        "description": "a complex of two contemporary art galleries in Kensington Gardens and Hyde Park, in the center of London. These are the Serpentine Gallery and the Serpentine Sackler Gallery",
+        "latitude": 51.5047,
+        "longitude": -0.17505,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Serpentine%20Gallery%20and%202008%20Pavilion.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318777",
+        "name": "Whitechapel Gallery",
+        "category": "art_museum",
+        "description": "former public library in Whitechapel, London",
+        "latitude": 51.5161342,
+        "longitude": -0.070103202,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Isaac%20Rosenberg%20-%20Whitechapel%20Library%2077%20High%20Street%20Whitechapel%20E1%207QX%20est.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6519762",
+        "name": "Leighton House",
+        "category": "art_museum",
+        "description": "museum in London, United Kingdom",
+        "latitude": 51.4986,
+        "longitude": -0.203089,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Casa%20de%20Leighton%2C%20Londres%2C%20Inglaterra%2C%202022-11-26%2C%20DD%2040.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q52984670",
+        "name": "Sainsbury Wing",
+        "category": "art_museum",
+        "description": "extension to the National Gallery, London",
+        "latitude": 51.5086,
+        "longitude": -0.129822,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Gallery%20London%20Sainsbury%20Wing%202006-04-17.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q124397535",
+        "name": "The Brown Collection",
+        "category": "art_museum",
+        "description": "art museum in London, England",
+        "latitude": 51.51739,
+        "longitude": -0.15046,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Brown%20Collection%20Front%20of%20Building.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7382027",
+        "name": "Pushkin House",
+        "category": "art_museum",
+        "description": "Russian cultural centre in London",
+        "latitude": 51.5182,
+        "longitude": -0.1231,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pushkin%20House.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q123127706",
+        "name": "San Mei Gallery",
+        "category": "art_museum",
+        "description": "art museum in the UK",
+        "latitude": 51.470972601,
+        "longitude": -0.108504426,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q18347243",
+        "name": "Lefevre Gallery",
+        "category": "art_museum",
+        "description": "defunct art gallery in London, England",
+        "latitude": 51.5107,
+        "longitude": -0.14458,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lefevre%20catalogue%20-%201935%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3522227",
+        "name": "The Photographers' Gallery",
+        "category": "art_museum",
+        "description": "photography gallery in London",
+        "latitude": 51.5148,
+        "longitude": -0.1389,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Photographers%27%20Gallery%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q238587",
+        "name": "National Portrait Gallery",
+        "category": "art_museum",
+        "description": "art museum in London, England, United Kingdom",
+        "latitude": 51.509444444,
+        "longitude": -0.128055555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Portrait%20Gallery%2C%20London%2C%20June%202023%2034.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q270920",
+        "name": "Royal Academy of Arts",
+        "category": "art_museum",
+        "description": "art institution in London, England, United Kingdom",
+        "latitude": 51.509166666,
+        "longitude": -0.139444444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Burlington%20House.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1327919",
+        "name": "Wallace Collection",
+        "category": "art_museum",
+        "description": "art museum in London, England, UK",
+        "latitude": 51.517454,
+        "longitude": -0.153022,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20House%2C%20home%20of%20the%20Wallace%20Collectiion.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1434767",
+        "name": "King's Gallery",
+        "category": "art_museum",
+        "description": "the main public art gallery of Buckingham Palace",
+        "latitude": 51.4998,
+        "longitude": -0.142408,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20King%27s%20Gallery%202024-06-27.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q8015837",
+        "name": "William Morris Gallery",
+        "category": "art_museum",
+        "description": "museum in Walthamstow, London, United Kingdom",
+        "latitude": 51.5913,
+        "longitude": -0.02035,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Morris%20Gallery-001.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3634393",
+        "name": "Bankside Gallery",
+        "category": "art_museum",
+        "description": "public art gallery in Bankside, London, England",
+        "latitude": 51.508055555,
+        "longitude": -0.101944444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bankside%20Gallery%20%282%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q653858",
+        "name": "Barbican Centre",
+        "category": "art_museum",
+        "description": "Performing arts centre in the City of London",
+        "latitude": 51.5202,
+        "longitude": -0.095,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barbican-arts-centre-large.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q12064946",
+        "name": "Orleans House Gallery",
+        "category": "art_museum",
+        "description": "building and art gallery in Twickenham, London Borough of Richmond upon Thames, England, United Kingdom",
+        "latitude": 51.4473,
+        "longitude": -0.319022,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Orleans%20House%20Gallery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7734409",
+        "name": "The Fleming Collection",
+        "category": "art_museum",
+        "description": "museum in London",
+        "latitude": 51.5082,
+        "longitude": -0.1433,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7620325",
+        "name": "Storran Gallery",
+        "category": "art_museum",
+        "description": "former art gallery",
+        "latitude": 51.4994,
+        "longitude": -0.1647,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Storran%20Gallery%201937.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q47007830",
+        "name": "Kennel Club Dog Art Gallery",
+        "category": "art_museum",
+        "description": "art museum in London",
+        "latitude": 51.506403,
+        "longitude": -0.14424,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q779736",
+        "name": "Hayward Gallery",
+        "category": "art_museum",
+        "description": "art gallery in London",
+        "latitude": 51.5061,
+        "longitude": -0.115556,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hayward-gallery-london%20I.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5211817",
+        "name": "Dalí Universe",
+        "category": "art_museum",
+        "description": "former museum in London based in County Hall",
+        "latitude": 51.5025,
+        "longitude": -0.118889,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Outside%20Dali%20Museum.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2105155",
+        "name": "Portland Gallery",
+        "category": "art_museum",
+        "description": "art gallery in London",
+        "latitude": 51.5075,
+        "longitude": -0.140833333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portland%20Gallery%20sign.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2097388",
+        "name": "Pitzhanger Manor",
+        "category": "art_museum",
+        "description": "Grade I listed historic house museum in the London Borough of Ealing, United Kingdom",
+        "latitude": 51.511,
+        "longitude": -0.30717,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pitzhanger.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q195436",
+        "name": "Tate Britain",
+        "category": "art_museum",
+        "description": "art museum on Millbank, Westminster, London, UK",
+        "latitude": 51.491062,
+        "longitude": -0.127789,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tate%20Britain%2C%20Millbank%20-%20panoramio%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7721464",
+        "name": "The Cartoon Museum",
+        "category": "art_museum",
+        "description": "museum in London",
+        "latitude": 51.517611111,
+        "longitude": -0.138611111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CartoonMuseumLondon.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3492259",
+        "name": "South London Gallery",
+        "category": "art_museum",
+        "description": "art gallery in London, UK",
+        "latitude": 51.47416667,
+        "longitude": -0.07972222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Camberwell%20School%20of%20Arts%20and%20Passmore%20Edwards%20South%20London%20Art%20Gallery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q47012682",
+        "name": "Corvi-Mora",
+        "category": "art_museum",
+        "description": "art Gallery, Modern Art, Contemporary Art in London",
+        "latitude": 51.491168,
+        "longitude": -0.108423,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2900083",
+        "name": "Bethlem Royal Hospital Archives and Museum",
+        "category": "art_museum",
+        "description": "original art and medical museum, sited at the Bethlam Royal Hospital, United Kingdom",
+        "latitude": 51.3819,
+        "longitude": -0.0311,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bethlem%20Royal%20Hospital%20-%20geograph.org.uk%20-%2034691.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q119266745",
+        "name": "Barts Health Archives",
+        "category": "art_museum",
+        "description": "Archives of the NHS Trust in London",
+        "latitude": 51.516984,
+        "longitude": -0.100917,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q16150132",
+        "name": "Borough Road Gallery",
+        "category": "art_museum",
+        "description": "art gallery in the United Kingdom",
+        "latitude": 51.4986,
+        "longitude": -0.101667,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q122799895",
+        "name": "Gilbert & George Center",
+        "category": "art_museum",
+        "description": "art museum in the UK",
+        "latitude": 51.519046,
+        "longitude": -0.07118,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q193375",
+        "name": "Tate Modern",
+        "category": "art_museum",
+        "description": "modern art gallery located in Bankside, London, England",
+        "latitude": 51.507777777,
+        "longitude": -0.099444444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tate%20Modern%20viewed%20from%20Thames%20Pleasure%20Boat%20-%20geograph.org.uk%20-%20307445.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5741857",
+        "name": "Hermitage Rooms",
+        "category": "art_museum",
+        "description": "former London branch of the Hermitage Museum",
+        "latitude": 51.5108,
+        "longitude": -0.117222,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17509607",
+        "name": "Bethlem Gallery",
+        "category": "art_museum",
+        "description": "art gallery in Beckenham, Bromley, England",
+        "latitude": 51.3809,
+        "longitude": -0.0296944,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bethlem%20Royal%20Hospital%20-%20geograph.org.uk%20-%2034691.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5401727",
+        "name": "Estorick Collection of Modern Italian Art",
+        "category": "art_museum",
+        "description": "art museum in London, United Kingdom",
+        "latitude": 51.5439,
+        "longitude": -0.1,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Estorick%20Collection.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1229936",
+        "name": "Boydell Shakespeare Gallery",
+        "category": "art_museum",
+        "description": "former art gallery in London",
+        "latitude": 51.50569444,
+        "longitude": -0.13666667,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Institution%20at%2052%20Pall%20Mall.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4968030",
+        "name": "Guildhall Art Gallery",
+        "category": "art_museum",
+        "description": "museum in London, United Kingdom",
+        "latitude": 51.5155,
+        "longitude": -0.0914,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Guildhall%20Art%20Gallery%20%2814186022081%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4886600",
+        "name": "Ben Uri Gallery",
+        "category": "art_museum",
+        "description": "gallery & museum in London",
+        "latitude": 51.5375,
+        "longitude": -0.1854,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BU%20Gallery%20Exterior%202015%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q213322",
+        "name": "Victoria and Albert Museum",
+        "category": "art_museum",
+        "description": "museum in London, England, United Kingdom",
+        "latitude": 51.49685,
+        "longitude": -0.17162,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20%26%20Albert%20Museum%20Entrance%2C%20London%2C%20UK%20-%20Diliff.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q622206",
+        "name": "Apsley House",
+        "category": "art_museum",
+        "description": "London townhouse of the Dukes of Wellington",
+        "latitude": 51.503472222,
+        "longitude": -0.151666666,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Apsley%20House%20-%20geograph.org.uk%20-%203763141.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q28402078",
+        "name": "198 Contemporary Arts and Learning",
+        "category": "art_museum",
+        "description": "arts gallery/organisation in London",
+        "latitude": 51.45397,
+        "longitude": -0.10374,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/External%20view%20of%20198%20Contemporary%20Arts%20and%20Learning%2C%202010.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q139766116",
+        "name": "Gilbert and George Centre",
+        "category": "art_museum",
+        "description": "art museum in London, England, UK",
+        "latitude": 51.51903,
+        "longitude": -0.07076,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q98929280",
+        "name": "Clore Gallery",
+        "category": "art_museum",
+        "description": "1987 postmodern extension to the Tate Britain art Gallery",
+        "latitude": 51.490871,
+        "longitude": -0.127181,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Clore%20Gallery%20London%20Dec07.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q139765901",
+        "name": "Elizabeth Garrett Anderson Gallery",
+        "category": "art_museum",
+        "description": "gallery in London, England, UK",
+        "latitude": 51.52821,
+        "longitude": -0.12952,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q105298810",
+        "name": "Schorr Collection",
+        "category": "art_museum",
+        "description": "private museum and collection of 500+ paintings in the UK",
+        "latitude": 51.5193981,
+        "longitude": -0.1582969,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q85744587",
+        "name": "BFI Gallery",
+        "category": "art_museum",
+        "description": "The BFI Gallery was the BFI's contemporary art gallery dedicated to artists' moving image housed within BFI Southbank, the British Film Institute's flagship venue in London.",
+        "latitude": 51.5072,
+        "longitude": -0.1157,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q23304808",
+        "name": "Quentin Blake Centre for Illustration",
+        "category": "art_museum",
+        "description": "public gallery and museum in London, England, UK",
+        "latitude": 51.528416111,
+        "longitude": -0.107658888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20River%20Head%20in%20Islington.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q86501876",
+        "name": "12 Duke Street",
+        "category": "art_museum",
+        "description": "art gallery in London, UK",
+        "latitude": 51.50734,
+        "longitude": -0.1376,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1385848",
+        "name": "Eynsford Castle",
+        "category": "castle",
+        "description": "castle, now ruinous, in Eynsford, Kent, England, UK",
+        "latitude": 51.3706,
+        "longitude": 0.213333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eynsford%20Castle%20%2820%29%20%2818373797302%29%20%282%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q24662664",
+        "name": "Kemsing Castle Bank",
+        "category": "castle",
+        "description": "castle in the UK",
+        "latitude": 51.30654,
+        "longitude": 0.22949,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17546819",
+        "name": "Ightham Court",
+        "category": "castle",
+        "description": "house in Ightham, Kent, England, UK",
+        "latitude": 51.2948,
+        "longitude": 0.286358,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6702874",
+        "name": "Lullingstone Castle",
+        "category": "castle",
+        "description": "historic manor house in the village of Lullingstone in England",
+        "latitude": 51.3579,
+        "longitude": 0.196217,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lullingstone%20Castle%20%28geograph%207526378%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1470540",
+        "name": "Montfichet's Tower",
+        "category": "castle",
+        "description": "castle",
+        "latitude": 51.5136,
+        "longitude": -0.101389,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Millennium%20Bridge%20%26%20St.%20Pauls.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5604838",
+        "name": "Greenwich Castle",
+        "category": "castle",
+        "description": "castle in Greenwich Park, demolished in 1675",
+        "latitude": 51.4779,
+        "longitude": -0.0019,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Greenwich%20Park-%20its%20history%20and%20associations%20%281902%29%20%2814780060514%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5761802",
+        "name": "Hilfield Castle",
+        "category": "castle",
+        "description": "English country estate",
+        "latitude": 51.6536,
+        "longitude": -0.3348,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aldenham%20Reservoir%20-%20geograph.org.uk%20-%20208513.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7618887",
+        "name": "Stone Castle",
+        "category": "castle",
+        "description": "castle in Kent, England, UK",
+        "latitude": 51.4433,
+        "longitude": 0.277778,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stone%20Castle%20-%20geograph.org.uk%20-%20893976.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q24660890",
+        "name": "Walton on the Hill",
+        "category": "castle",
+        "description": "castle in Surrey, England",
+        "latitude": 51.28194,
+        "longitude": -0.24922,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Walton%20on%20the%20Hill%20-%20geograph.org.uk%20-%201188833.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q24660892",
+        "name": "Chessington Castle Hill",
+        "category": "castle",
+        "description": "castle in the UK",
+        "latitude": 51.35784,
+        "longitude": -0.29157,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q812569",
+        "name": "Baynard's Castle",
+        "category": "castle",
+        "description": "buildings on two neighbouring sites in London",
+        "latitude": 51.511388888,
+        "longitude": -0.1,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/ONL%20%281887%29%201.198%20-%20Baynard%27s%20Castle%2C%201790.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1886295",
+        "name": "Savoy Palace",
+        "category": "palace",
+        "description": "the residence of John of Gaunt until it was destroyed in the Peasants' Revolt of 1381",
+        "latitude": 51.510555555,
+        "longitude": -0.120277777,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Savoy%20on%20Norden%27s%20map.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q203035",
+        "name": "Winchester Palace",
+        "category": "palace",
+        "description": "twelfth-century palace in London",
+        "latitude": 51.5068,
+        "longitude": -0.0910336,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Winchester%20Palace.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q207385",
+        "name": "Kensington Palace",
+        "category": "palace",
+        "description": "royal residence set in Kensington Gardens, London, England, UK",
+        "latitude": 51.505277777,
+        "longitude": -0.188333333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kensington%20Palace.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q564981",
+        "name": "Queen's House",
+        "category": "palace",
+        "description": "historic house museum in London, UK",
+        "latitude": 51.4812,
+        "longitude": -0.00378253,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Greenwich%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7752234",
+        "name": "The More",
+        "category": "palace",
+        "description": "16th century palace in Batchworth, Hertfordshire, England, UK",
+        "latitude": 51.6343,
+        "longitude": -0.439356,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6904072",
+        "name": "Montagu House, Whitehall",
+        "category": "palace",
+        "description": "palace in the United Kingdom",
+        "latitude": 51.5064,
+        "longitude": -0.126389,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Montagu%20House%20from%20the%20Illustrated%20London%20News%2C%201864.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1130266",
+        "name": "Lambeth Palace",
+        "category": "palace",
+        "description": "official London residence of the Archbishop of Canterbury",
+        "latitude": 51.49556,
+        "longitude": -0.11972,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lambeth%20Palace%20London%20240404.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1059945",
+        "name": "Richmond Palace",
+        "category": "palace",
+        "description": "former royal residence in London, England, UK",
+        "latitude": 51.460388888,
+        "longitude": -0.310219444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Richmond%20Palace%20remains%207423.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2008622",
+        "name": "Oatlands Palace",
+        "category": "palace",
+        "description": "former royal palace in Surrey, England, UK",
+        "latitude": 51.3754,
+        "longitude": -0.45144,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palace%20-%20Oatlands.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q913573",
+        "name": "Bridewell Palace",
+        "category": "palace",
+        "description": "former palace in the City of London, England; former prison",
+        "latitude": 51.511794444,
+        "longitude": -0.105758333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Prospect%20of%20Bridewell.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1424839",
+        "name": "Palace of Placentia",
+        "category": "palace",
+        "description": "English royal palace at Greenwich",
+        "latitude": 51.482222222,
+        "longitude": -0.006666666,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Greenwich%20PalaceGentlemen%27sMagazine1840.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q391620",
+        "name": "Palace of Whitehall",
+        "category": "palace",
+        "description": "former building in the City of Westminster, London",
+        "latitude": 51.504444444,
+        "longitude": -0.125555555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Palace%20of%20Whitehall%20by%20Hendrik%20Danckerts.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3657356",
+        "name": "Croydon Palace",
+        "category": "palace",
+        "description": "historical residence of the Archbishop of Canterbury",
+        "latitude": 51.37228,
+        "longitude": -0.105642,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Old%20Palace%20School%20%28Croydon%20Palace%29.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4802240",
+        "name": "Arundel House",
+        "category": "palace",
+        "description": "London town-house located between the Strand and the River Thames, near St Clement Danes",
+        "latitude": 51.5119,
+        "longitude": -0.114167,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wenceslas%20Hollar%20-%20Arundel%20House%2C%20from%20the%20N..jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q512922",
+        "name": "Theobalds House",
+        "category": "palace",
+        "description": "ruined stately home and palace near Cheshunt in Hertfordshire, England, UK",
+        "latitude": 51.6892,
+        "longitude": -0.0557352,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cheshunt%2C%20Theobalds%20-%20geograph.org.uk%20-%20552741.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q202902",
+        "name": "The Crystal Palace",
+        "category": "palace",
+        "description": "former building originally in Hyde Park, London, 1854 relocated to Bromley, South London",
+        "latitude": 51.422294444,
+        "longitude": -0.075788888,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Crystal%20Palace%20from%20the%20northeast%20from%20Dickinson%27s%20Comprehensive%20Pictures%20of%20the%20Great%20Exhibition%20of%201851.%201854.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5001608",
+        "name": "Bushy House",
+        "category": "palace",
+        "description": "former royal residence in Teddington in South West London",
+        "latitude": 51.4203,
+        "longitude": -0.339167,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Npl%20bushy%20house%202.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q24660958",
+        "name": "Otford Castle",
+        "category": "palace",
+        "description": "palace in Kent, England, UK",
+        "latitude": 51.3112,
+        "longitude": 0.192338,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Otford%20Palace%20Gatehouse.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1050082",
+        "name": "Kew Palace",
+        "category": "palace",
+        "description": "Grade I listed historic house museum in London Borough of Richmond upon Thames, United Kingdom",
+        "latitude": 51.4838,
+        "longitude": -0.295056,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kew%20Palace%20%285942717068%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q205666",
+        "name": "Hampton Court Palace",
+        "category": "palace",
+        "description": "historic royal palace in Richmond, Greater London",
+        "latitude": 51.4034,
+        "longitude": -0.337499,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hampton%20Court%20Palace%20%283%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q272162",
+        "name": "St James's Palace",
+        "category": "palace",
+        "description": "royal palace in London",
+        "latitude": 51.504722222,
+        "longitude": -0.137777777,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20James%27s%20Palace%2C%20London%20-%20geograph.org.uk%20-%207963883.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7263490",
+        "name": "Pyrgo Park",
+        "category": "palace",
+        "description": "park on the site of an ancient royal palace",
+        "latitude": 51.6195,
+        "longitude": 0.199,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Havering%20atte%20Bower%20Pyrgo%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640934",
+        "name": "Three quadrangular earthworks on Banstead Heath",
+        "category": "archaeological_site",
+        "description": "archaeological site in Reigate and Banstead, Surrey, England, UK",
+        "latitude": 51.2832,
+        "longitude": -0.233738,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645394",
+        "name": "Grim's Ditch: four linear sections between Uxbridge Road and Oxhey Lane",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Harrow, Greater London, England, UK",
+        "latitude": 51.613,
+        "longitude": -0.369888,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645226",
+        "name": "Grim's Ditch: section N of Blythwood House",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Harrow, Greater London, England, UK",
+        "latitude": 51.6026,
+        "longitude": -0.39175,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645447",
+        "name": "Romano-British site 1000yds (910m) W of East Bedfont parish church",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Hounslow, Greater London, England, UK",
+        "latitude": 51.453,
+        "longitude": -0.453396,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17647700",
+        "name": "Anglo-Saxon cemetery at Darenth Park",
+        "category": "archaeological_site",
+        "description": "archaeological site in Darenth, Dartford, England, UK",
+        "latitude": 51.4332,
+        "longitude": 0.251256,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17648792",
+        "name": "Oxhey Hall moated site",
+        "category": "archaeological_site",
+        "description": "archaeological site in Watford Rural, Three Rivers, England, UK",
+        "latitude": 51.6376,
+        "longitude": -0.407068,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640897",
+        "name": "Anglo-Saxon and medieval cemetery",
+        "category": "archaeological_site",
+        "description": "archaeological site in Spelthorne, Surrey, England, UK",
+        "latitude": 51.3982,
+        "longitude": -0.464408,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644860",
+        "name": "Medieval moated manor house, 43m west of Cathay House",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Southwark, Greater London, England, UK",
+        "latitude": 51.5001,
+        "longitude": -0.0594026,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Medieval%20moated%20manor%20house%2C%2043m%20west%20of%20Cathay%20House.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17646328",
+        "name": "Two Saxon burial mounds on Gally Hills",
+        "category": "archaeological_site",
+        "description": "archaeological site in Reigate and Banstead, Surrey, England, UK",
+        "latitude": 51.3326,
+        "longitude": -0.207434,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645278",
+        "name": "Morden Park Mound",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Merton, Greater London, England, UK",
+        "latitude": 51.3927,
+        "longitude": -0.211449,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645156",
+        "name": "The London Greyfriars, site of, Newgate Street, Farringdon",
+        "category": "archaeological_site",
+        "description": "archaeological site in City of London, London, England, UK",
+        "latitude": 51.5159,
+        "longitude": -0.0994134,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20Christ%20Church%20Greyfriars%20vestry%20house.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645311",
+        "name": "Castle Hill earthwork, Chessington",
+        "category": "archaeological_site",
+        "description": "archaeological site in Royal Borough of Kingston upon Thames, Greater London, England, UK",
+        "latitude": 51.3576,
+        "longitude": -0.2912,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645061",
+        "name": "Linear earthworks in Pear Wood, W of Watling Street",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Harrow, Greater London, England, UK",
+        "latitude": 51.6287,
+        "longitude": -0.307044,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640752",
+        "name": "Roman camp, Matthew Arnold School's playing field, Staines",
+        "category": "archaeological_site",
+        "description": "archaeological site in Spelthorne, Surrey, England, UK",
+        "latitude": 51.425,
+        "longitude": -0.486108,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5367781",
+        "name": "Elsyng Palace",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Enfield, Greater London, England, UK",
+        "latitude": 51.6723,
+        "longitude": -0.0655754,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640795",
+        "name": "Iron Age banjo enclosure, associated enclosure and linear features, 323m south-west of South Tadworth Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in Reigate and Banstead, Surrey, England, UK",
+        "latitude": 51.2996,
+        "longitude": -0.243712,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645333",
+        "name": "Camp on Keston Common",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Bromley, Greater London, England, UK",
+        "latitude": 51.3577,
+        "longitude": 0.0348225,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17661980",
+        "name": "A major Roman villa, an Anglo-Saxon settlement and prehistoric remains 600m SSE of Darenth Court Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in Darenth, Dartford, England, UK",
+        "latitude": 51.413,
+        "longitude": 0.246477,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645202",
+        "name": "Burial mound on Winns Common, Plumstead",
+        "category": "archaeological_site",
+        "description": "archaeological site in Royal Borough of Greenwich, Greater London, England, UK",
+        "latitude": 51.4812,
+        "longitude": 0.0967794,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tumulus%20on%20Winn%27s%20Common.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644910",
+        "name": "Howbury moated site",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Bexley, Greater London, England, UK",
+        "latitude": 51.4684,
+        "longitude": 0.198278,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Howbury%20Moat%20in%20Slade%20Green.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644980",
+        "name": "Upminster Tithe Barn",
+        "category": "archaeological_site",
+        "description": "historic building in London Borough of Havering, Greater London, England, UK",
+        "latitude": 51.5668,
+        "longitude": 0.256932,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Upminster%20Tithe%20Barn%202025%20northern%20elevation%20from%20north%20east.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17662063",
+        "name": "Faesten Dic, a medieval frontier work in Joydens Wood",
+        "category": "archaeological_site",
+        "description": "archaeological site in Dartford, Kent, England, UK",
+        "latitude": 51.4239,
+        "longitude": 0.1593,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Faestendic%2C%20Joyden%27s%20Wood.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1877182",
+        "name": "Lullingstone Roman Villa",
+        "category": "archaeological_site",
+        "description": "Roman villa in Lullingstone, Kent, United Kingdom",
+        "latitude": 51.364,
+        "longitude": 0.196389,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/LullingstonVilla-Kent%20Interior%20May2001.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17649078",
+        "name": "Late Bronze Age enclosure at Queen Mary's Hospital, Carshalton",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Sutton, Greater London, England, UK",
+        "latitude": 51.3458,
+        "longitude": -0.163933,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644934",
+        "name": "Dagnam Park Farm moated site, Noak Hill, Romford",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Havering, Greater London, England, UK",
+        "latitude": 51.6111,
+        "longitude": 0.236648,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645287",
+        "name": "Regular aggregate field system, associated trackway and Anglo-Saxon barrow field on Farthing Down, 490m east of Hooley Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Croydon, Greater London, England, UK",
+        "latitude": 51.3055,
+        "longitude": -0.136669,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7361585",
+        "name": "Roman Baths, Strand Lane",
+        "category": "archaeological_site",
+        "description": "archaeological site in Westminster, London, England, UK",
+        "latitude": 51.511775,
+        "longitude": -0.115776,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Drawing%20of%20Roman%20Bath%20in%20the%20Strand%201841.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17662189",
+        "name": "Penne's Place moated site, Aldenham",
+        "category": "archaeological_site",
+        "description": "archaeological site in Aldenham, Hertsmere, England, UK",
+        "latitude": 51.6584,
+        "longitude": -0.315058,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17641739",
+        "name": "Two concentric ditches showing as crop marks at Thorney",
+        "category": "archaeological_site",
+        "description": "archaeological site in Iver, Buckinghamshire, England, UK",
+        "latitude": 51.5057,
+        "longitude": -0.501821,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17647234",
+        "name": "Bronze Age settlement, W of Runnymede Bridge",
+        "category": "archaeological_site",
+        "description": "archaeological site in Runnymede, Surrey, England, UK",
+        "latitude": 51.4372,
+        "longitude": -0.536206,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645344",
+        "name": "Iron Age settlement and Roman villa at Warbank, Keston",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Bromley, Greater London, England, UK",
+        "latitude": 51.3505,
+        "longitude": 0.0293685,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17641743",
+        "name": "Mound with ditch and outer bank 200ft (60m) S of Savay Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in Denham, Buckinghamshire, England, UK",
+        "latitude": 51.5807,
+        "longitude": -0.490304,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17641018",
+        "name": "Camp in Ashtead Forest",
+        "category": "archaeological_site",
+        "description": "archaeological site in Mole Valley, Surrey, England, UK",
+        "latitude": 51.3271,
+        "longitude": -0.313177,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q15133926",
+        "name": "Keston Roman villa",
+        "category": "archaeological_site",
+        "description": "Roman villa in the UK",
+        "latitude": 51.350668,
+        "longitude": 0.028796,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Keston%20mausoleum.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640773",
+        "name": "Site of manor house in Netherne Wood",
+        "category": "archaeological_site",
+        "description": "archaeological site in Reigate and Banstead, Surrey, England, UK",
+        "latitude": 51.2882,
+        "longitude": -0.147501,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645459",
+        "name": "Part of a causewayed enclosure, 632m north-east of Mayfield Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Hounslow, Greater London, England, UK",
+        "latitude": 51.4518,
+        "longitude": -0.446913,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645466",
+        "name": "Grim's Ditch: section extending 1500yds (1370m) NE from Oxhey Lane",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Harrow, Greater London, England, UK",
+        "latitude": 51.6216,
+        "longitude": -0.357164,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17541882",
+        "name": "Keston Parish Church",
+        "category": "archaeological_site",
+        "description": "church in the London Borough of Bromley, England,UK",
+        "latitude": 51.3484,
+        "longitude": 0.0353411,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Keston%20Parish%20Church%20BR2%20-%20geograph.org.uk%20-%2043186.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644834",
+        "name": "Huggin Hill Roman bath house, 120m WNW of St James's Church",
+        "category": "archaeological_site",
+        "description": "archaeological site in City of London, London, England, UK",
+        "latitude": 51.5114,
+        "longitude": -0.0953634,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Huggin%20Hill%20Roman%20bath%20house%2004.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17640781",
+        "name": "Late Roman bath house at Chatley Farm",
+        "category": "archaeological_site",
+        "description": "archaeological site in Elmbridge, Surrey, England, UK",
+        "latitude": 51.3247,
+        "longitude": -0.439492,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17645825",
+        "name": "Roman granary 250yds (230m) W of St Mary's Church",
+        "category": "archaeological_site",
+        "description": "archaeological site in Horton Kirby and South Darenth, Sevenoaks, England, UK",
+        "latitude": 51.3941,
+        "longitude": 0.240549,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17647299",
+        "name": "Franks Roman Villa",
+        "category": "archaeological_site",
+        "description": "archaeological site in Farningham, Sevenoaks, England, UK",
+        "latitude": 51.3845,
+        "longitude": 0.232015,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17647277",
+        "name": "A preceptory of the Knights Hospitallers, known as St John's Jerusalem, and an associated fishpond at Sutton-at-Hone",
+        "category": "archaeological_site",
+        "description": "archaeological site in Sutton-at-Hone and Hawley, Dartford, England, UK",
+        "latitude": 51.4103,
+        "longitude": 0.240435,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%27s%20Jerusalem%20from%20footpath%20-%20geograph.org.uk%20-%201245552.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17641709",
+        "name": "Netherwyld Farm Roman villa",
+        "category": "archaeological_site",
+        "description": "archaeological site in Aldenham, Hertsmere, England, UK",
+        "latitude": 51.697,
+        "longitude": -0.347803,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17644922",
+        "name": "Section of Roman road on Gidea Park golf course",
+        "category": "archaeological_site",
+        "description": "archaeological site in London Borough of Havering, Greater London, England, UK",
+        "latitude": 51.59,
+        "longitude": 0.201148,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7085516",
+        "name": "Oldbury rock shelters",
+        "category": "archaeological_site",
+        "description": "Palaeolithic rock shelters",
+        "latitude": 51.2861,
+        "longitude": 0.26934,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Southern%20Rock%20Shelter%20on%20Oldbury%20Hill.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26404901",
+        "name": "Monument Approximately 240 Metres North Of The Warren At Tq 410 959",
+        "category": "monument",
+        "description": "monument in Loughton, Epping Forest, Essex, England, UK",
+        "latitude": 51.644232,
+        "longitude": 0.036407,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q18144073",
+        "name": "Suffragette Memorial",
+        "category": "monument",
+        "description": "sculpture in London, England",
+        "latitude": 51.498244,
+        "longitude": -0.134823,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Suffragette%20Memorial%2C%20Christchurch%20Gardens%2C%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26279767",
+        "name": "Need Monument Approximately 12 Metres North East Of Chancel Of Church Of St Mary And St Nicholas",
+        "category": "monument",
+        "description": "monument in Mole Valley, Surrey, England, UK",
+        "latitude": 51.29278017,
+        "longitude": -0.326566086,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26482034",
+        "name": "Prince Imperial Monument",
+        "category": "monument",
+        "description": "memorial in Chislehurst, London",
+        "latitude": 51.410747,
+        "longitude": 0.067099,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Prince%20Imperial%20Memorial%20%28geograph%202572990%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26485860",
+        "name": "Monument To Sir George Farrant, Kensal Green Cemetery",
+        "category": "monument",
+        "description": "monument in Kensington and Chelsea, London, England, UK",
+        "latitude": 51.528414,
+        "longitude": -0.223137,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q18763250",
+        "name": "Armenian Genocide Memorial",
+        "category": "monument",
+        "description": "memorial in London",
+        "latitude": 51.49967,
+        "longitude": -0.193819,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Armenian%20Genocide%20memorial%2C%20St%20Sarkis%20Armenian%20Church%2C%20London%2006.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26458316",
+        "name": "Golborne Monument East Of South Aisle Of St Peter's Church",
+        "category": "monument",
+        "description": "monument in Iver, South Bucks, Buckinghamshire, England, UK",
+        "latitude": 51.519836,
+        "longitude": -0.502593,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318985",
+        "name": "Monument To Robert Shorediche, About Ten Yards South South East Of Porch Of St Giles' Church",
+        "category": "monument",
+        "description": "monument in Hillingdon, London, England, UK",
+        "latitude": 51.56481352,
+        "longitude": -0.44379482,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q216185",
+        "name": "Charing Cross",
+        "category": "monument",
+        "description": "area of London, England",
+        "latitude": 51.5073,
+        "longitude": -0.12755,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Westminster%2C%20Charing%20Cross%20-%20geograph.org.uk%20-%20865507.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26483762",
+        "name": "Monument To Sir Peter Nicol Russell Engineer In St Marylebone Cemetery",
+        "category": "monument",
+        "description": "sculpture in Barnet, London, England, UK",
+        "latitude": 51.592817,
+        "longitude": -0.185312,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Sir%20Peter%20Nicol%20Russell%203.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2911131",
+        "name": "Duke of York Column",
+        "category": "monument",
+        "description": "monument in London",
+        "latitude": 51.506333333,
+        "longitude": -0.131805555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Duke%20of%20York%20J.Woods%20after%20a%20picture%20by%20J.Salmon%20publ%201837.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552270",
+        "name": "Monument To Thomas And Hannah Miller, South Enclosure",
+        "category": "monument",
+        "description": "monument in London Borough of Islington, United Kingdom",
+        "latitude": 51.5235,
+        "longitude": -0.0881054,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Thomas%20And%20Hannah%20Miller%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17871256",
+        "name": "Monument Of Sir John Call Bart, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in London Borough of Lewisham, United Kingdom",
+        "latitude": 51.4635,
+        "longitude": 0.000237893,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20Of%20Sir%20John%20Call%20Bart%2C%20Lee%20Old%20Churchyard.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552237",
+        "name": "Monument To Mary Boyle, South Enclosure",
+        "category": "monument",
+        "description": "monument in London Borough of Islington, United Kingdom",
+        "latitude": 51.5233,
+        "longitude": -0.0891477,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Mary%20Boyle%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552523",
+        "name": "Monument To Ninon Michaelis, Kensal Green Cemetery",
+        "category": "monument",
+        "description": "monument in Royal Borough of Kensington and Chelsea, United Kingdom",
+        "latitude": 51.5284,
+        "longitude": -0.220301,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ninon%20Michaelis%20Monument.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26485567",
+        "name": "Moyer Monument In Churchyard 20 Yards West South West Of Tower",
+        "category": "monument",
+        "description": "monument in Waltham Forest, London, England, UK",
+        "latitude": 51.563812,
+        "longitude": -0.015595,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/South%20Face%20of%20the%20Moyer%20Monument%2C%20Leyton%20%2801%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318943",
+        "name": "Monument To Chandless Family Approximately 14 Metres South East Of Church Of St Mary",
+        "category": "monument",
+        "description": "monument in City of Westminster, London, England, UK",
+        "latitude": 51.52032181,
+        "longitude": -0.174977627,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chandless%20family%20monument.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26483585",
+        "name": "Bridgman Monument Approximately 8 Metres South Of Corner Of Chancel Of Church Of St Giles",
+        "category": "monument",
+        "description": "monument in Mole Valley, Surrey, England, UK",
+        "latitude": 51.308561,
+        "longitude": -0.289779,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26468401",
+        "name": "Titus Monument About 10 Metres East Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644618,
+        "longitude": -0.367613,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26397617",
+        "name": "Smith Monument About 20 Metres North Of Chancel Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644716,
+        "longitude": -0.36775,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552216",
+        "name": "Monument To John Bunyan, Bunhill Fields",
+        "category": "monument",
+        "description": "Altar tomb of John Bunyan in Bunhill Fields burial ground, London, United Kingdom",
+        "latitude": 51.5234,
+        "longitude": -0.0883723,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20John%20Bunyan%2C%20Central%20Broadwalk%202013-09-04%2014-21-58.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26475210",
+        "name": "Walpole Monument 25 Yards South Of Church Of St Margaret",
+        "category": "monument",
+        "description": "monument in Reigate and Banstead, Surrey, England, UK",
+        "latitude": 51.292081,
+        "longitude": -0.160756,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552252",
+        "name": "Monument To Sarah And John Wheatly, East Enclosure",
+        "category": "monument",
+        "description": "monument in the London Borough of Islington",
+        "latitude": 51.5237,
+        "longitude": -0.0882438,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Sarah%20and%20John%20Wheatly%2C%20East%20Enclosure%202013-09-04%2014-10-18.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26413022",
+        "name": "Monument at north-western end of General Roy's survey base",
+        "category": "monument",
+        "description": "cannon in Hillingdon, London, England, UK",
+        "latitude": 51.47919,
+        "longitude": -0.450613,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Where%20it%20all%20began%21%20%28geograph%202651652%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1333411",
+        "name": "Victoria Memorial",
+        "category": "monument",
+        "description": "memorial to Queen Victoria in London, England, UK",
+        "latitude": 51.501833,
+        "longitude": -0.140639,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%22The%20Victoria%20Memorial%22%20London%20%22Christmas%20day%22%20%2815925642490%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26279806",
+        "name": "Hamelot Monument Approximately 18 Metres South East Of Chancel Of Church Of St Giles",
+        "category": "monument",
+        "description": "monument in Mole Valley, Surrey, England, UK",
+        "latitude": 51.30851216,
+        "longitude": -0.289493903,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17542818",
+        "name": "Monument In Courtyard",
+        "category": "monument",
+        "description": "Monument in the courtyard of St Katharine's Precinct, Regent's Park, London NW1",
+        "latitude": 51.5337,
+        "longitude": -0.147062,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/DanishChLondon.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26407084",
+        "name": "St Andrews Gardens Entrance Gates, Section Of South Side Railings And Monuments",
+        "category": "monument",
+        "description": "Camden, Greater London, WC1X",
+        "latitude": 51.525536,
+        "longitude": -0.115367,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20entrance%20gates%20to%20St.%20Andrew%27s%20Gardens%20from%20Wren%20Street%2C%20WC1%20-%20geograph.org.uk%20-%201229131.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4343111",
+        "name": "Statue of Saint Volodymyr",
+        "category": "monument",
+        "description": "1988 monument in London",
+        "latitude": 51.507444444,
+        "longitude": -0.204055555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruler%20of%20Ukraine%20statuette%20Volodymir%20bright.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318925",
+        "name": "Monument To John Crosier, About Ten Yards North West Of Chancel Of St Giles' Church",
+        "category": "monument",
+        "description": "monument in Hillingdon, London, England, UK",
+        "latitude": 51.56493839,
+        "longitude": -0.443718418,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Church%20of%20St.%20Giles%2C%20Ickenham%20-%20monument%20to%20John%20Crosier%20-%20geograph.org.uk%20-%204820621.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q18761870",
+        "name": "Raoul Wallenberg Monument",
+        "category": "monument",
+        "description": "statue in London",
+        "latitude": 51.515,
+        "longitude": -0.159625,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Raoul%20Wallenberg%20memorial%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552244",
+        "name": "Monument To Joseph Denison, South Enclosure",
+        "category": "monument",
+        "description": "monument in the London Borough of Islington",
+        "latitude": 51.5235,
+        "longitude": -0.0889704,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Joseph%20Denison%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26468422",
+        "name": "Paul Monument About 15 Metres South Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644271,
+        "longitude": -0.367863,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26485288",
+        "name": "Chapfield Monument Approximately 2 Metres East Of Porch Of Church Of St Mary And St Nicholas",
+        "category": "monument",
+        "description": "monument in Mole Valley, Surrey, England, UK",
+        "latitude": 51.292741,
+        "longitude": -0.326955,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26279782",
+        "name": "Coster Monument Approximately 3 Metres West Of North West Corner Of Church Of St Mary",
+        "category": "monument",
+        "description": "monument in Mole Valley, Surrey, England, UK",
+        "latitude": 51.28823346,
+        "longitude": -0.352817826,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26397655",
+        "name": "Coningesby Monuments About 2 Metres East Of Church Of St John The Baptist",
+        "category": "monument",
+        "description": "monument in Aldenham, Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.673274,
+        "longitude": -0.35267,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26406938",
+        "name": "Monument To Martha Bianchi In Hampstead Cemetery",
+        "category": "monument",
+        "description": "monument in Camden, London, England, UK",
+        "latitude": 51.556967,
+        "longitude": -0.198886,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bianchi%20Monument%2C%20Hampstead%20Cemetery.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318992",
+        "name": "Monument To Woodd Family Approximately 6 Metres North East Of Church Of St Mary",
+        "category": "monument",
+        "description": "monument in City of Westminster, London, England, UK",
+        "latitude": 51.52054849,
+        "longitude": -0.175098293,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Woodd%20family%2C%20Church%20of%20St%20Mary%2C%20Paddington%20Green%2C%20September%202017.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552229",
+        "name": "Monument To Mary Page, Central Broadwalk",
+        "category": "monument",
+        "description": "monument in London Borough of Islington, United Kingdom",
+        "latitude": 51.5236,
+        "longitude": -0.0892827,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Page%20monument%202.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26397619",
+        "name": "Fuller Monument About 30 Metres West South West Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644281,
+        "longitude": -0.368373,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17527305",
+        "name": "Queen Alexandra Memorial",
+        "category": "monument",
+        "description": "memorial in London to Alexandra of Denmark",
+        "latitude": 51.5047,
+        "longitude": -0.13677,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Queen%20Alexandra%20Memorial%2C%20Marlborough%20Road.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26397618",
+        "name": "Herkomer Monument About 20 Metres North Of Tower Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644603,
+        "longitude": -0.368181,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17553324",
+        "name": "Godfrey Monument In St Mary's Churchyard",
+        "category": "monument",
+        "description": "monument in London Borough of Redbridge, United Kingdom",
+        "latitude": 51.5978,
+        "longitude": 0.0198316,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Godfrey%20Monument%20in%20St%20Mary%27s%20Churchyard%2C%20Woodford.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26281427",
+        "name": "York Column",
+        "category": "monument",
+        "description": "building in Elmbridge, Surrey, England, UK",
+        "latitude": 51.37372884,
+        "longitude": -0.455397179,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/York%20Column%2C%20Weybridge%20-%20cropped.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1248701",
+        "name": "Statue of John Henry Newman",
+        "category": "monument",
+        "description": "statue in London, England, UK",
+        "latitude": 51.4965,
+        "longitude": -0.1702,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CardinalNewmanStatue%20BromptonOratory.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q17552263",
+        "name": "Monument To Henry Hunter, Middle Enclosure",
+        "category": "monument",
+        "description": "monument in the London Borough of Islington",
+        "latitude": 51.5236,
+        "longitude": -0.0886061,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Henry%20Hunter%2C%20Middle%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26511584",
+        "name": "Speke's Monument",
+        "category": "monument",
+        "description": "memorial to John Hanning Speke in Kensington Gardens, London",
+        "latitude": 51.508994,
+        "longitude": -0.179177,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Speke%E2%80%99s%20Monument%20in%20the%20Kensington%20Gardens%2C%20London%202013%20%284%29.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26468360",
+        "name": "Monument At Centre Of The Bushey Rose Garden",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.64391,
+        "longitude": -0.360672,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q281465",
+        "name": "Albert Memorial",
+        "category": "monument",
+        "description": "memorial to Prince Albert in Kensington Gardens, London",
+        "latitude": 51.502413377,
+        "longitude": -0.177742437,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20Alberto%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26317882",
+        "name": "Monument To Thomas Tate, St Marylebone Cemetery",
+        "category": "monument",
+        "description": "monument in Barnet, London, England, UK",
+        "latitude": 51.59230178,
+        "longitude": -0.183398273,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/East%20Finchley%20Cemetery%2020200110%20115845%20%2849362605297%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26468409",
+        "name": "Edridge Monument About 15 Metres South West Of Church Of St James",
+        "category": "monument",
+        "description": "monument in Hertsmere, Hertfordshire, England, UK",
+        "latitude": 51.644276,
+        "longitude": -0.368237,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087505",
+        "name": "Monument To Thomas Rosewell, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523511,
+        "longitude": -0.088223,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Thomas%20Rosewell%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087136",
+        "name": "Monument To John Crutchley, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463228,
+        "longitude": 0.000323,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087510",
+        "name": "Gabriel Family Monument, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523514,
+        "longitude": -0.088094,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Family%20Monument%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087462",
+        "name": "King And Du Pont Family Monument, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523415,
+        "longitude": -0.08886,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20And%20Du%20Pont%20Family%20Monument%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087493",
+        "name": "Monument To Joseph Hart, North Section",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523878,
+        "longitude": -0.089289,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Joseph%20Hart%2C%20North%20Section.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087483",
+        "name": "Monument To William Broadfoot, West Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.5235,
+        "longitude": -0.089908,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20Broadfoot%2C%20West%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087509",
+        "name": "Monument To Thomas Goodwin And Thankful Owen, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523511,
+        "longitude": -0.087874,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Thomas%20Goodwin%20And%20Thankful%20Owen%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087445",
+        "name": "Monument To William And Catherine Blake, Bunhill Fields",
+        "category": "monument",
+        "description": "monument in Islington, London, England, UK",
+        "latitude": 51.523784,
+        "longitude": -0.088354,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20And%20Catherine%20Sophia%20Blake%2C%20Central%20Broadwalk.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087131",
+        "name": "Monument To Ives Hurrey, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463246,
+        "longitude": 0.000352,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087500",
+        "name": "Monument To John Owen, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523351,
+        "longitude": -0.088168,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20John%20Owen%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087495",
+        "name": "Monument To John Conder, North Section",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523952,
+        "longitude": -0.089388,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20John%20Conder%2C%20North%20Section.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087494",
+        "name": "Monument To Samuel Favell, North Section",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523912,
+        "longitude": -0.089349,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Samuel%20Favell%2C%20North%20Section.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087515",
+        "name": "Monument To William Jenkyn, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523459,
+        "longitude": -0.087723,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20Jenkyn%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087123",
+        "name": "Monument To William Chivers, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463479,
+        "longitude": -0.00017,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087499",
+        "name": "Monument To Lady Agnes Erskine, North Section",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.524129,
+        "longitude": -0.08944,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Lady%20Agnes%20Erskine%2C%20North%20Section.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26353347",
+        "name": "Monument To William And Agnes Loudon, In Churchyard To Church Of St John The Baptist On South Side",
+        "category": "monument",
+        "description": "monument in Harrow, London, England, UK",
+        "latitude": 51.5944,
+        "longitude": -0.378856,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%20the%20Baptist%2C%20Pinner%2C%20September%202015%2015.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087491",
+        "name": "Monument To Thomas Bradbury, West Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523512,
+        "longitude": -0.089648,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Thomas%20Bradbury%2C%20West%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087472",
+        "name": "Monument To James Hughes, East Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523605,
+        "longitude": -0.087598,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20James%20Hughes%2C%20East%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26355598",
+        "name": "Monument To The Molyneux Family, Kensal Green Cemetery",
+        "category": "monument",
+        "description": "monument in Kensington and Chelsea, London, England, UK",
+        "latitude": 51.528419,
+        "longitude": -0.222301,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20the%20Molyneux%20Family.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087496",
+        "name": "Monument To William Shrubsole, North Section",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.524057,
+        "longitude": -0.08944,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20Shrubsole%2C%20North%20Section.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087125",
+        "name": "Monument To Thomas Butler, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463287,
+        "longitude": 9.4e-05,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087467",
+        "name": "Monument To Isaac Watts, East Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.52374,
+        "longitude": -0.088032,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Isaac%20Watts%2C%20East%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087451",
+        "name": "Cromwell Family Monument, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523248,
+        "longitude": -0.088588,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cromwell%20Family%20Monument%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087518",
+        "name": "Monument To Hugh Pugh, East Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523675,
+        "longitude": -0.087602,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Hugh%20Pugh%2C%20East%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087481",
+        "name": "Monument To Dan Taylor, Middle Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523655,
+        "longitude": -0.089112,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Dan%20Taylor%2C%20Middle%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26349996",
+        "name": "Clarke Family Monument In St Marys Churchyard",
+        "category": "monument",
+        "description": "monument in Barnet, London, England, UK",
+        "latitude": 51.635515,
+        "longitude": -0.155444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Clarke%20monument%20St%20Mary%20the%20Virgin%2C%20East%20Barnet%2001.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087486",
+        "name": "Lawrance Family Monument, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523335,
+        "longitude": -0.08832,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lawrance%20Family%20Monument%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087128",
+        "name": "Morris Monument, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463471,
+        "longitude": -0.000199,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087124",
+        "name": "Limeburner Monument, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463304,
+        "longitude": 9.8e-05,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087473",
+        "name": "Monument To Joseph Hughes, Middle Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523668,
+        "longitude": -0.088593,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Joseph%20Hughes%2C%20Middle%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087459",
+        "name": "Monument To William Aldridge, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523396,
+        "longitude": -0.089019,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20Aldridge%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087508",
+        "name": "Monument To William Hooke, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523413,
+        "longitude": -0.088208,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20William%20Hooke%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087465",
+        "name": "Monument To Richard Price, East Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523596,
+        "longitude": -0.087534,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Richard%20Price%2C%20East%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26354089",
+        "name": "Monument At South Side Of Junction With Jews Walk",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.430492,
+        "longitude": -0.059458,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087461",
+        "name": "Monument To Susanna Wesley, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523328,
+        "longitude": -0.088914,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Susanna%20Wesley%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26351455",
+        "name": "Monument To Members Of The Preston Family In North West Corner Of Churchyard Of St John",
+        "category": "monument",
+        "description": "monument in Croydon, London, England, UK",
+        "latitude": 51.371317,
+        "longitude": -0.050064,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Members%20Of%20The%20Preston%20Family%20In%20Churchyard%20Of%20St%20John%20Q26351455.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087476",
+        "name": "Monument To Joseph Jenkins, Middle Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523716,
+        "longitude": -0.089081,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Joseph%20Jenkins%2C%20Middle%20Enclosure%2C%20no%20longer%20extant.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087485",
+        "name": "Monument To Samuel Stennett, West Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523605,
+        "longitude": -0.08957,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Samuel%20Stennett%2C%20West%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087460",
+        "name": "Monument To James And Anna Marie Ware, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523403,
+        "longitude": -0.089019,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20James%20And%20Anna%20Marie%20Ware%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087133",
+        "name": "Jackson Monument, Lee Old Churchyard.",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463127,
+        "longitude": -9.9e-05,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087137",
+        "name": "Monument To John Hosier, Lee Old Churchyard",
+        "category": "monument",
+        "description": "monument in Lewisham, London, England, UK",
+        "latitude": 51.463218,
+        "longitude": 0.000409,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087480",
+        "name": "Monument To Elizabeth Esdaile, West Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523558,
+        "longitude": -0.089654,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Elizabeth%20Esdaile%2C%20West%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087448",
+        "name": "Monument To Joseph Ivimey, South Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523269,
+        "longitude": -0.089726,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20To%20Joseph%20Ivimey%2C%20South%20Enclosure.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27087471",
+        "name": "Monument To Thomas Hardy, East Enclosure",
+        "category": "monument",
+        "description": "Islington, Greater London, EC1Y",
+        "latitude": 51.523687,
+        "longitude": -0.08763,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20to%20Thomas%20Hardy.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q99511222",
+        "name": "Copped Hall Gardens",
+        "category": "garden",
+        "description": "Gardens in Epping Forest, Essex, England, UK",
+        "latitude": 51.69264,
+        "longitude": 0.0703,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Copped%20Hall%20garden%20path%20and%20balustrade%2C%20Epping%2C%20Essex%2C%20England.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4828201",
+        "name": "Avenue House Grounds",
+        "category": "garden",
+        "description": "garden in London Borough of Barnet, United Kingdom",
+        "latitude": 51.5975,
+        "longitude": -0.1937,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Avenue%20House%20Grounds%20pond.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26488005",
+        "name": "Fountain Garden",
+        "category": "garden",
+        "description": "garden in London, England, UK",
+        "latitude": 51.402761,
+        "longitude": -0.333654,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5146391",
+        "name": "College Garden",
+        "category": "garden",
+        "description": "Garden in London",
+        "latitude": 51.498,
+        "longitude": -0.12694,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%94%D0%B2%D0%BE%D1%80%D0%B8%D0%BA%20%D0%92%D0%B5%D1%81%D1%82%D0%BC%D0%B8%D0%BD%D1%81%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B0%D0%B1%D0%B1%D0%B0%D1%82%D1%81%D1%82%D0%B2%D0%B0%20-%20panoramio%20%281%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q110802209",
+        "name": "Woodside House Gardens",
+        "category": "garden",
+        "description": "Gardens in Chenies, Buckinghamshire, England",
+        "latitude": 51.67788,
+        "longitude": -0.53259,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Woodside%20Lutyens%20Houses%20and%20Gardens%201913%20Page021.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q97957311",
+        "name": "Minchenden Oak Garden",
+        "category": "garden",
+        "description": "public park in Southgate, London, England",
+        "latitude": 51.624305555,
+        "longitude": -0.129083333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Minchenden%20Oak%2C%20Southgate%2C%20London%20N14%20-%20geograph.org.uk%20-%202604677.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q130603766",
+        "name": "The Queen's Orchard",
+        "category": "garden",
+        "description": "garden area within Greenwich Park",
+        "latitude": 51.482093,
+        "longitude": 0.000925,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5126319",
+        "name": "Claremont Landscape Garden",
+        "category": "garden",
+        "description": "historic garden in Surrey, England, UK",
+        "latitude": 51.3579,
+        "longitude": -0.3781,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Claremont%20-%20panoramio%20%282%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q188617",
+        "name": "Kew Gardens",
+        "category": "garden",
+        "description": "botanical garden and world's largest collection of living plants in the London Borough of Richmond upon Thames",
+        "latitude": 51.478888888,
+        "longitude": -0.293611111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palmhuis.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318532",
+        "name": "Fountain Garden",
+        "category": "garden",
+        "description": "grade II listed garden in the London Borough of Richmond upon Thames, England,UK",
+        "latitude": 51.40433814,
+        "longitude": -0.335796409,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6942875",
+        "name": "Muslim Burial Ground, Horsell Common",
+        "category": "garden",
+        "description": "former cemetery and current peace garden in Woking, Surrey, England, UK",
+        "latitude": 51.329098,
+        "longitude": -0.542033,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Muslim%20Burial%20Ground%20Peace%20Garden%20%28geograph%205683871%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q111890184",
+        "name": "The Sunken Garden",
+        "category": "garden",
+        "description": "garden at Kensington Palace, London, England, UK",
+        "latitude": 51.505678,
+        "longitude": -0.186845,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kensington%20Gardens%201.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q125503910",
+        "name": "Chiswick House Gardens",
+        "category": "garden",
+        "description": "gardens in the Chiswick district of London, England",
+        "latitude": 51.484444444,
+        "longitude": -0.260277777,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q61740755",
+        "name": "Sky Garden",
+        "category": "garden",
+        "description": "public garden in London",
+        "latitude": 51.511342329,
+        "longitude": -0.083463472,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Sky%20Garden.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q23301454",
+        "name": "Yalta Memorial Garden",
+        "category": "garden",
+        "description": "garden in London, England, UK",
+        "latitude": 51.495697222,
+        "longitude": -0.172175,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gardens%20at%20junction%20of%20Thurloe%20Place%20and%20Cromwell%20Gardens%20-%20geograph.org.uk%20-%201651878.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6077825",
+        "name": "Isabella Plantation",
+        "category": "garden",
+        "description": "woodland and garden in Richmond Park, London",
+        "latitude": 51.433055555,
+        "longitude": -0.276944444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Isabella%20Plantation%2C%20Richmond%20Park%2C%20London%20-%20April%202011.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q88929146",
+        "name": "Broomfield Park Garden of Remembrance",
+        "category": "garden",
+        "description": "war memorial garden in Palmers Green, London",
+        "latitude": 51.616598,
+        "longitude": -0.117543,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Broomfield%20Park%20war%20memorial.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q127869154",
+        "name": "Inner Temple Garden",
+        "category": "garden",
+        "description": "Grade II registered garden in London",
+        "latitude": 51.5119,
+        "longitude": -0.11002,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Inner%20Temple%20Garden%202007.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q122870956",
+        "name": "Hampstead Pergola",
+        "category": "garden",
+        "description": "garden and pergola in London",
+        "latitude": 51.56561,
+        "longitude": -0.18395,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hampstead%20Pergola%20%28222742877%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q130344154",
+        "name": "Queen’s Garden, Kew Palace",
+        "category": "garden",
+        "description": "",
+        "latitude": 51.48411,
+        "longitude": -0.29524,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/At%20Royal%20Botanic%20Gardens%2C%20Kew%202024%20157.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q137843672",
+        "name": "Middle Temple Gardens",
+        "category": "garden",
+        "description": "Grade II listed park and garden in London, England, UK",
+        "latitude": 51.511347,
+        "longitude": -0.111566,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Middle%20Temple%2C%20London-9734489084.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q116453362",
+        "name": "St. Johns Memorial Garden",
+        "category": "garden",
+        "description": "",
+        "latitude": 51.3719813,
+        "longitude": -0.106355,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Johns%20Memorial%20Garden%3B%20Croydon.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26318531",
+        "name": "Fountain Garden",
+        "category": "garden",
+        "description": "garden in Richmond upon Thames, London, England, UK (TQ 15955 68510)",
+        "latitude": 51.40377845,
+        "longitude": -0.334379001,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q137843745",
+        "name": "Ham House",
+        "category": "garden",
+        "description": "Grade II* listed park and garden in Richmond upon Thames, London, England, UK",
+        "latitude": 51.441606,
+        "longitude": -0.312355,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q122830591",
+        "name": "The Hill Garden and Pergola",
+        "category": "garden",
+        "description": "garden in Camden, London, England",
+        "latitude": 51.56504,
+        "longitude": -0.18229,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Hill%20Garden%20-%20geograph.org.uk%20-%20838639.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26488003",
+        "name": "Fountain Garden",
+        "category": "garden",
+        "description": "garden in London, England, UK",
+        "latitude": 51.402139,
+        "longitude": -0.334841,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20Garden%20-%20Hampton%20Court%20Palace.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q27083770",
+        "name": "Fountain Garden",
+        "category": "garden",
+        "description": "garden in Richmond upon Thames, London, England, UK (TQ 15821 68316)",
+        "latitude": 51.402062,
+        "longitude": -0.336368,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q26350051",
+        "name": "Myddelton House",
+        "category": "garden",
+        "description": "house in Enfield, Greater London, England, UK",
+        "latitude": 51.674999,
+        "longitude": -0.061043,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Myddelton%20House%2C%20Enfield%2C%20Middlesex-geograph-3860891.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2130851",
+        "name": "Ranelagh Gardens",
+        "category": "garden",
+        "description": "18th-century garden once located in Chelsea, (then outside London, today in London)",
+        "latitude": 51.4872,
+        "longitude": -0.155278,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2121329",
+        "name": "Syon House",
+        "category": "garden",
+        "description": "house with park in Isleworth, west London, England, UK",
+        "latitude": 51.4767,
+        "longitude": -0.3125,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Syon%20House%20West%20Aspect.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q58321349",
+        "name": "Italian Gardens",
+        "category": "garden",
+        "description": "garden in Kensington Gardens, London",
+        "latitude": 51.510557,
+        "longitude": -0.175493,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20Kensington%20Gardens%20-%20Italian%20Gardens%201861%20-%20View%20SE%20II.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q96359208",
+        "name": "Garden of 10 and 11 Downing Street",
+        "category": "garden",
+        "description": "Garden behind UK prime minister's official residence",
+        "latitude": 51.5037,
+        "longitude": -0.1279,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Downing%20Street%20garden%20path%20edge%20%287361631644%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q122848843",
+        "name": "Ada Salter Garden",
+        "category": "garden",
+        "description": "garden within Southwark Park, Southwark, London, UK",
+        "latitude": 51.49468,
+        "longitude": -0.05582,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q136343555",
+        "name": "The Wilderness",
+        "category": "garden",
+        "description": "Accessible Woodland Garden in Croydon, Surrey",
+        "latitude": 51.3716301,
+        "longitude": -0.0527388,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Q136343555.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q263477",
+        "name": "Buckingham Palace Garden",
+        "category": "garden",
+        "description": "garden in London, England, UK",
+        "latitude": 51.501,
+        "longitude": -0.146,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Buckingham%20Palace%20BackYard.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3667127",
+        "name": "Chenies Manor House",
+        "category": "garden",
+        "description": "Grade I listed historic house museum in Chiltern, United Kingdom",
+        "latitude": 51.6744,
+        "longitude": -0.532966,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chenies%20-%20The%20Manor%20House%20-%20geograph.org.uk%20-%20139226.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q123738",
+        "name": "Hyde Park",
+        "category": "park",
+        "description": "Royal Park in London, England, UK",
+        "latitude": 51.508611111,
+        "longitude": -0.163611111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyde%20Park%20July%202015-1.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5313183",
+        "name": "Dukes Meadows",
+        "category": "park",
+        "description": "Riverside park in Chiswick, London",
+        "latitude": 51.4752,
+        "longitude": -0.2617,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dukes%20Meadows%2020170616%20132037%20%2832750483997%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6710385",
+        "name": "Lyttelton Playing Fields",
+        "category": "park",
+        "description": "public park in London, England",
+        "latitude": 51.5836,
+        "longitude": -0.1769,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyttelton%20Playing%20Fields%201.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5092489",
+        "name": "Cherry Tree Wood",
+        "category": "park",
+        "description": "public park in London, England",
+        "latitude": 51.5859,
+        "longitude": -0.1598,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5325475",
+        "name": "Ealing Common",
+        "category": "park",
+        "description": "common land in Ealing, London",
+        "latitude": 51.511,
+        "longitude": -0.294,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ealing%20Common%20-%20geograph.org.uk%20-%2017075.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q149942",
+        "name": "Primrose Hill",
+        "category": "park",
+        "description": "hill and park in the London Borough of Camden, England, UK",
+        "latitude": 51.5396,
+        "longitude": -0.1608,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Primrose%20Hill%2C%20London%20-16Sept2010.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5303173",
+        "name": "Downhills Park",
+        "category": "park",
+        "description": "park in Tottenham, London, England",
+        "latitude": 51.5894,
+        "longitude": -0.0911111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Downhills%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3428134",
+        "name": "Crystal Palace Dinosaurs",
+        "category": "park",
+        "description": "1854 sculpture series in Crystal Palace Park, London, United Kingdom",
+        "latitude": 51.4175,
+        "longitude": -0.06722222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mantellodon%20in%20Crystal%20Palace%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q810947",
+        "name": "Battersea Park",
+        "category": "park",
+        "description": "park in the Borough of Wandsworth, London, England, UK",
+        "latitude": 51.4793,
+        "longitude": -0.1573,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Peace%20Pagoda%20Battersea%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1570958",
+        "name": "Hampstead Heath",
+        "category": "park",
+        "description": "park in Camden and Barnet in London, England",
+        "latitude": 51.561111111,
+        "longitude": -0.161111111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hampstead%20Heath%20entrance%20south.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5328494",
+        "name": "East Greenwich Pleasaunce",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.4846,
+        "longitude": 0.01402,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/East%20Greenwich%20Pleasaunce%20-%20geograph.org.uk%20-%202360331.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q8007399",
+        "name": "William Curtis Ecological Park",
+        "category": "park",
+        "description": "urban ecology park in England",
+        "latitude": 51.5044,
+        "longitude": -0.0775,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6666303",
+        "name": "Lodge Farm Park",
+        "category": "park",
+        "description": "",
+        "latitude": 51.582,
+        "longitude": 0.192,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2909021",
+        "name": "Morden Hall Park",
+        "category": "park",
+        "description": "park in Morden, London",
+        "latitude": 51.4011,
+        "longitude": -0.1875,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Morden%20Hall%20Park%201.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2918203",
+        "name": "Alexandra Park",
+        "category": "park",
+        "description": "park in the London Borough of Haringey",
+        "latitude": 51.594692,
+        "longitude": -0.126752,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Palace%20Park%2C%20pedestrian%20crossing%20-%20geograph.org.uk%20-%20823133.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6652596",
+        "name": "Little Wormwood Scrubs",
+        "category": "park",
+        "description": "park in London Borough of Hammersmith and Fulham, United Kingdom",
+        "latitude": 51.5236,
+        "longitude": -0.2288,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Little%20Wormwood%20Scrubs%20in%20London%2C%20spring%202013%20%289%29.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6649816",
+        "name": "Little Dorrit's Playground",
+        "category": "park",
+        "description": "playground in London, England",
+        "latitude": 51.5021,
+        "longitude": -0.09357,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1304231",
+        "name": "Finsbury Circus",
+        "category": "park",
+        "description": "park in the City of London, England, UK",
+        "latitude": 51.5178,
+        "longitude": -0.086595,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Finsbury%20Circus%20Gardens%20City%20of%20London%202025%20Image%20Credit%20Realm.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5221102",
+        "name": "Danson Park",
+        "category": "park",
+        "description": "park in the London Borough of Bexley, England, UK",
+        "latitude": 51.4566,
+        "longitude": 0.11729,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Danson%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1330941",
+        "name": "Royal Parks of London",
+        "category": "park",
+        "description": "lands originally owned by the monarchy of the United Kingdom",
+        "latitude": 51.5081,
+        "longitude": -0.1654,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Parks%20of%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6931579",
+        "name": "Mudchute Park and Farm",
+        "category": "park",
+        "description": "park and city farm on the Isle of Dogs, London",
+        "latitude": 51.4922,
+        "longitude": -0.0122222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mudchute%20Farm%2C%20Isle%20of%20Dogs%20-%20geograph.org.uk%20-%201705859.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6864558",
+        "name": "Minet Country Park",
+        "category": "park",
+        "description": "Park in Hillingdon, London",
+        "latitude": 51.5092,
+        "longitude": -0.402222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20on%20bristly%20ox%20tongue%20at%20Minet%20Country%20Park%20-%20geograph.org.uk%20-%2093716.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5102118",
+        "name": "Chislehurst Common",
+        "category": "park",
+        "description": "park in Chislehurst, London, UK",
+        "latitude": 51.41,
+        "longitude": 0.066666666,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chislehurst%20Common%20-%20geograph.org.uk%20-%201716063.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5094022",
+        "name": "Chestnuts Park",
+        "category": "park",
+        "description": "park in London, United Kingdom",
+        "latitude": 51.5825,
+        "longitude": -0.09,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnuts%20Park%20-%20geograph.org.uk%20-%20756066.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2909007",
+        "name": "Hampton Court Park",
+        "category": "park",
+        "description": "park in South London, England, UK",
+        "latitude": 51.4036,
+        "longitude": -0.32655,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/HamptonCourtParkTrees.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1770716",
+        "name": "Burgess Park",
+        "category": "park",
+        "description": "park in Southwark, London",
+        "latitude": 51.483576,
+        "longitude": -0.081841,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Burgess%20Park%2C%20London%20Borough%20of%20Southwark%2C%20SE5%20SE15%20%283038879613%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5311517",
+        "name": "Ducketts Common",
+        "category": "park",
+        "description": "park in London",
+        "latitude": 51.5881,
+        "longitude": -0.1024,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ducketts%20Common.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q181044",
+        "name": "Trent Park",
+        "category": "park",
+        "description": "park in the London Borough of Enfield, UK",
+        "latitude": 51.66,
+        "longitude": -0.134444444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Trent%20Park%2C%20London%20N14%20-%20geograph.org.uk%20-%201026201.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q119892",
+        "name": "Green Park",
+        "category": "park",
+        "description": "one of the Royal Parks of London",
+        "latitude": 51.504166666,
+        "longitude": -0.143611111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Park%2C%20London%2C%20England.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5126285",
+        "name": "Clarefield Park",
+        "category": "park",
+        "description": "park in Barnet, London, United Kingdom",
+        "latitude": 51.572,
+        "longitude": -0.221,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Clarefield%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3135423",
+        "name": "Highbury Fields",
+        "category": "park",
+        "description": "park in Highbury, London",
+        "latitude": 51.5503,
+        "longitude": -0.101667,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Highbury%20Fields%20-%20geograph.org.uk%20-%201534228.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2736153",
+        "name": "Lincoln's Inn Fields",
+        "category": "park",
+        "description": "public square in London, England, UK",
+        "latitude": 51.5161,
+        "longitude": -0.1166,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lincoln%27s%20Inn%20Fields%20-%20May%202006.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5100293",
+        "name": "Chinbrook Meadows",
+        "category": "park",
+        "description": "park in London Borough of Lewisham, United Kingdom",
+        "latitude": 51.429,
+        "longitude": 0.028,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chinbrook%20Meadows%20%28geograph%203460386%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q822607",
+        "name": "Kensington Gardens",
+        "category": "park",
+        "description": "park in London, England, UK",
+        "latitude": 51.507222222,
+        "longitude": -0.180277777,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyde%20Park%20Albert%20Memorial%20Jan%202006.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q808277",
+        "name": "Barking Park",
+        "category": "park",
+        "description": "park in Barking, east London, England",
+        "latitude": 51.545,
+        "longitude": 0.088,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barking%20Park%20-%20geograph.org.uk%20-%20600864.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5098616",
+        "name": "Childs Hill Park",
+        "category": "park",
+        "description": "London, England",
+        "latitude": 51.5675,
+        "longitude": -0.2009,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Childs%20Hill%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1353149",
+        "name": "Mile End Park",
+        "category": "park",
+        "description": "park in Bethnal Green, London",
+        "latitude": 51.526111111,
+        "longitude": -0.0375,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mile%20End%20Park%20-%20geograph.org.uk%20-%201423275.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q8033973",
+        "name": "Woolwich Common",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.4765,
+        "longitude": 0.0539,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Woolwich%20Common%2C%20disused%20drinking%20fountain%20-%20geograph.org.uk%20-%20971962.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3305517",
+        "name": "Postman's Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.5168,
+        "longitude": -0.0976431,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Postman%27s%20Park%20and%20the%20Wall%20of%20Heroes.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1142072",
+        "name": "Richmond Park",
+        "category": "park",
+        "description": "Royal Park in London, England, UK",
+        "latitude": 51.443333333,
+        "longitude": -0.275,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Isabella%20Plantation%2C%20Richmond%20Park%2C%20London%20-%20April%202011.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q8001510",
+        "name": "Wildspace Conservation Park",
+        "category": "park",
+        "description": "park in Rainham, United Kingdom",
+        "latitude": 51.5029,
+        "longitude": 0.195,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6886490",
+        "name": "Moat Mount Open Space and Mote End Farm",
+        "category": "park",
+        "description": "park and nature reserve in the London Borough of Barnet, England, UK",
+        "latitude": 51.6338,
+        "longitude": -0.2526,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1785211",
+        "name": "Addington Hills",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.363,
+        "longitude": -0.058,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Addington-hills-view.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3196577",
+        "name": "Kilburn Grange Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.5439,
+        "longitude": -0.1975,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilburn%20Grange%20Park.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5337965",
+        "name": "Edgwarebury Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.6251,
+        "longitude": -0.2828,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Edgwarebury%20Park%20Pinetum.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q216914",
+        "name": "St James's Park",
+        "category": "park",
+        "description": "Royal Park in central London",
+        "latitude": 51.5025,
+        "longitude": -0.135,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Ben%20Parketik%20-%20panoramio.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q3716204",
+        "name": "Dulwich Park",
+        "category": "park",
+        "description": "park in Dulwich, London",
+        "latitude": 51.445853,
+        "longitude": -0.078734,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Path%20in%20Dulwich%20Park%20-%20geograph.org.uk%20-%20203767.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5329863",
+        "name": "Eastcote House Gardens",
+        "category": "park",
+        "description": "",
+        "latitude": 51.5867,
+        "longitude": -0.402222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eastcote%20House%20Gardens%20Dovecote.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q739341",
+        "name": "Regent's Park",
+        "category": "park",
+        "description": "Royal Park of London, England, UK",
+        "latitude": 51.532222222,
+        "longitude": -0.156666666,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Regent%27s%20Park%20London.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5134465",
+        "name": "Clitterhouse Recreation Ground",
+        "category": "park",
+        "description": "park in Brent Cross, London, England",
+        "latitude": 51.569,
+        "longitude": -0.215,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6755193",
+        "name": "Marble Hill Park",
+        "category": "park",
+        "description": "parkland in Twickenham, in the London Borough of Richmond upon Thames, England, UK",
+        "latitude": 51.4494,
+        "longitude": -0.313333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20April%202009%20%283496483619%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q6881040",
+        "name": "Mitcham Cricket Green",
+        "category": "park",
+        "description": "park and cricket ground in Mitcham, London",
+        "latitude": 51.401111111,
+        "longitude": -0.167166666,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cricket%20on%20The%20Cricket%20Green%2C%20Mitcham.%20-%20geograph.org.uk%20-%2019915.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1017532",
+        "name": "Bushy Park",
+        "category": "park",
+        "description": "Royal Park of London",
+        "latitude": 51.412777777,
+        "longitude": -0.338055555,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BushyParkAutumn.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q929586",
+        "name": "Greenwich Park",
+        "category": "park",
+        "description": "Royal Park and former hunting park in Greenwich, London",
+        "latitude": 51.4767,
+        "longitude": 0.00013,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/GreenwichParcRoyal.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q1065157",
+        "name": "Turnham Green",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.491944444,
+        "longitude": -0.266111111,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Turnham%20Green%20with%20leafless%20trees%20in%20winter%20-%20geograph.org.uk%20-%201188527.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5316056",
+        "name": "Duppas Hill",
+        "category": "park",
+        "description": "hill and park in the London Borough of Croydon, England, UK",
+        "latitude": 51.367222222,
+        "longitude": -0.109722222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Croydon%20flyover%20from%20Duppas%20Hill%20Lane%20roundabout%20%28geograph%203941438%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5466565",
+        "name": "Foots Cray Meadows",
+        "category": "park",
+        "description": "park in borough of Bexley, London",
+        "latitude": 51.4258,
+        "longitude": 0.1271,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Five%20Arches%2C%20Foots%20Cray%20Meadows.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5906819",
+        "name": "Horton Country Park",
+        "category": "park",
+        "description": "Nature reserve in Epsom and Ewell, Surrey, England",
+        "latitude": 51.3542,
+        "longitude": -0.2894,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Horton%20Country%20Park%20-%20geograph.org.uk%20-%2035094.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5383988",
+        "name": "Epsom Common",
+        "category": "park",
+        "description": "park in United Kingdom",
+        "latitude": 51.33,
+        "longitude": -0.29,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stamford%20Green%20pond%20-%20geograph.org.uk%20-%201756891.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4804675",
+        "name": "Ashburton Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.3852,
+        "longitude": -0.06709,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Path%20in%20Ashburton%20Park%20-%20geograph.org.uk%20-%202658237.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4713597",
+        "name": "Aldenham Country Park",
+        "category": "park",
+        "description": "park in United Kingdom",
+        "latitude": 51.6472,
+        "longitude": -0.313889,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aldenham%20Country%20Park%20-%20geograph.org.uk%20-%20681930.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5713573",
+        "name": "Hendon Park",
+        "category": "park",
+        "description": "park in Hendon, London",
+        "latitude": 51.582,
+        "longitude": -0.222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hendon%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4681189",
+        "name": "Addington Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.356,
+        "longitude": -0.038,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Addington%20Park%20-%20geograph.org.uk%20-%201188816.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5560291",
+        "name": "Giggs Hill Green",
+        "category": "park",
+        "description": "park in Thames Ditton",
+        "latitude": 51.386,
+        "longitude": -0.333,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5374828",
+        "name": "Emslie Horniman's Pleasance",
+        "category": "park",
+        "description": "park in Royal Borough of Kensington and Chelsea, London, UK",
+        "latitude": 51.5253,
+        "longitude": -0.2092,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2036052",
+        "name": "Parliament Hill",
+        "category": "park",
+        "description": "hill and area of open parkland in the south-east corner of Hampstead Heath, London, England, UK",
+        "latitude": 51.559722222,
+        "longitude": -0.159722222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Parliament%20Hill%2C%20London.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7060441",
+        "name": "Northwick Park",
+        "category": "park",
+        "description": "area in London",
+        "latitude": 51.575,
+        "longitude": -0.3248,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Northwick%20Park%20open%20space%20and%20hospital.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5904179",
+        "name": "Hornchurch Country Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.539166666,
+        "longitude": 0.208333333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingrebourne%20Valley%201.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7245507",
+        "name": "Priory Park",
+        "category": "park",
+        "description": "park in Hornsey, London",
+        "latitude": 51.585,
+        "longitude": -0.125,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Priory%20Park%202006.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5638692",
+        "name": "Haggerston Park",
+        "category": "park",
+        "description": "park in the London Borough of Hackney",
+        "latitude": 51.5331,
+        "longitude": -0.0675,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Haggerston%20park%201.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4681191",
+        "name": "Addington Vale",
+        "category": "park",
+        "description": "park in London Borough of Croydon",
+        "latitude": 51.343,
+        "longitude": -0.011,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7158745",
+        "name": "Peckham Rye",
+        "category": "park",
+        "description": "park in Peckham, London",
+        "latitude": 51.458236111,
+        "longitude": -0.061208333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Peckham%20Rye.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4668167",
+        "name": "Abney Park",
+        "category": "park",
+        "description": "park in Stoke Newington, United Kingdom",
+        "latitude": 51.5649,
+        "longitude": -0.0781,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7357524",
+        "name": "Roe Green Park",
+        "category": "park",
+        "description": "park in Kingsbury, London",
+        "latitude": 51.587,
+        "longitude": -0.271,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RoeGreenParkBasketball.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5377327",
+        "name": "Enfield Town Park",
+        "category": "park",
+        "description": "park in Enfield, London",
+        "latitude": 51.6492,
+        "longitude": -0.08682,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20River%20at%20Enfield%20Town%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4865415",
+        "name": "Bartlett Park",
+        "category": "park",
+        "description": "park in the London Borough of Tower Hamlets",
+        "latitude": 51.514722222,
+        "longitude": -0.022222222,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bartlett%20Park%2019.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5619226",
+        "name": "Gunnersbury Park",
+        "category": "park",
+        "description": "park in the London Borough of Hounslow, United Kingdom",
+        "latitude": 51.498,
+        "longitude": -0.292,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gunnersbury%20Park%20Museum%2C%20Brentford%2C%20Hounslow%2C%20London%2C%20England-26Feb2012.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7241963",
+        "name": "Preston Park",
+        "category": "park",
+        "description": "park in London Borough of Brent, UK",
+        "latitude": 51.5706,
+        "longitude": -0.302778,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Preston%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5604866",
+        "name": "Greenwich Peninsula Ecology Park",
+        "category": "park",
+        "description": "park situated along the River Thames in the Greenwich Peninsula in South London",
+        "latitude": 51.4949,
+        "longitude": 0.0163,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20entrance%20to%20the%20Greenwich%20Peninsula%20Ecology%20Park%20-%20geograph.org.uk%20-%203777655.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2290816",
+        "name": "Jubilee Gardens",
+        "category": "park",
+        "description": "Park in London",
+        "latitude": 51.5038,
+        "longitude": -0.1184,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lambeth%2C%20London%2C%20UK%20-%20panoramio%20%28124%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5503378",
+        "name": "Friary Park",
+        "category": "park",
+        "description": "park in Friern Barnet, London",
+        "latitude": 51.6185,
+        "longitude": -0.1624,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Friary%20Park.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4863131",
+        "name": "Barra Hall Park",
+        "category": "park",
+        "description": "park in the London Borough of Hillingdon, UK",
+        "latitude": 51.5178,
+        "longitude": -0.423333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barra%20Hall%2C%20Hayes%20-%20geograph.org.uk%20-%20153360.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7083838",
+        "name": "Old Deer Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.4692,
+        "longitude": -0.31068,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Richmond%20Deer%20Park%20Obelisk.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5683822",
+        "name": "Havering Country Park",
+        "category": "park",
+        "description": "park in United Kingdom",
+        "latitude": 51.6137,
+        "longitude": 0.1733,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Havering%20Country%20Park%205.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5595750",
+        "name": "Grangewood Park",
+        "category": "park",
+        "description": "park in the United Kingdom",
+        "latitude": 51.404,
+        "longitude": -0.09,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Grangewood%20Park%20-%20geograph.org.uk%20-%201182981.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5447699",
+        "name": "Figge's Marsh",
+        "category": "park",
+        "description": "park in Mitcham, south London",
+        "latitude": 51.414,
+        "longitude": -0.16,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Figges%20Marsh%2C%20looking%20south%20-%20Dec%202020%20%28DD%20coord.%2051.41388%20-0.1604%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4681212",
+        "name": "Addiscombe Railway Park",
+        "category": "park",
+        "description": "park in London Borough of Croydon, United Kingdom",
+        "latitude": 51.3822,
+        "longitude": -0.0783333,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Addiscombe%20Railway%20Park%20-%20geograph.org.uk%20-%202462941.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7244465",
+        "name": "Princes Park",
+        "category": "park",
+        "description": "park in Temple Fortune, in the London Borough of Barnet, North London, England",
+        "latitude": 51.582,
+        "longitude": -0.2061,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Princes%20Park%20tree.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5556567",
+        "name": "Newington Gardens",
+        "category": "park",
+        "description": "park in London, England",
+        "latitude": 51.4975,
+        "longitude": -0.095833333,
+        "image_url": null,
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7052477",
+        "name": "Norman Leddy Memorial Gardens",
+        "category": "park",
+        "description": "park in Hayes, United Kingdom",
+        "latitude": 51.5205,
+        "longitude": -0.423,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Small%20Red-eyed%20Damselfly%20%282817634173%29.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q5913296",
+        "name": "Hounslow Heath",
+        "category": "park",
+        "description": "park in Greater London, United Kingdom",
+        "latitude": 51.456,
+        "longitude": -0.389,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hounslow%20Heath%20-%20geograph.org.uk%20-%20108662.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7073587",
+        "name": "Oak Hill Park",
+        "category": "park",
+        "description": "park in London Borough of Barnet, United Kingdom",
+        "latitude": 51.6378,
+        "longitude": -0.1549,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Oak%20Hill%20Park%20-%20geograph.org.uk%20-%201728843.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7205473",
+        "name": "Plumstead Common",
+        "category": "park",
+        "description": "park in Plumstead, United Kingdom",
+        "latitude": 51.4808,
+        "longitude": 0.0852778,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/London%2C%20Plumstead%20Common%2004.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q2176986",
+        "name": "Russia Dock Woodland",
+        "category": "park",
+        "description": "long narrow park in Rotherhithe, London",
+        "latitude": 51.501,
+        "longitude": -0.039,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stave%20Hill%2C%20Rotherhithe%2C%20London%20-%20May%202008.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7049614",
+        "name": "Nonsuch Park",
+        "category": "park",
+        "description": "park in Epsom and Ewell, Surrey, England, UK",
+        "latitude": 51.3582,
+        "longitude": -0.228714,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ewell%2C%20Surrey%2C%20Trees%20in%20Nonsuch%20Park%20-%20geograph.org.uk%20-%201732562.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7137782",
+        "name": "Park Hill Recreation Ground",
+        "category": "park",
+        "description": "park in Croydon UK",
+        "latitude": 51.3712,
+        "longitude": -0.08924,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Park%20Hill%20Entrance%202015.JPG",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q7330838",
+        "name": "Richmond Green",
+        "category": "park",
+        "description": "park in Richmond, London, UK",
+        "latitude": 51.461666666,
+        "longitude": -0.306944444,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Richmond%20Green%20-%20geograph.org.uk%20-%20398202.jpg",
+        "sitelinks": 0
+    },
+    {
+        "wikidata_id": "Q4861296",
+        "name": "Barn Elms",
+        "category": "park",
+        "description": "open space in Barnes in the London Borough of Richmond upon Thames",
+        "latitude": 51.4736,
+        "longitude": -0.230833,
+        "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barn%20Elms%20Recreation%20Ground%20-%20geograph.org.uk%20-%20789523.jpg",
+        "sitelinks": 0
+    }
+]
