@@ -356,10 +356,10 @@ def main():
 
     enriched_attractions = []
 
-    # TESTING: only process the first 3 attractions
-    for i, attraction in enumerate(attractions[:3], start=1):
+    # TESTING: only process the first 20 attractions
+    for i, attraction in enumerate(attractions[:20], start=1):
         print(
-            f"\nEnriching {i}/{min(3, len(attractions))}: "
+            f"\nEnriching {i}/{min(20, len(attractions))}: "
             f"{attraction['name']}"
         )
 
