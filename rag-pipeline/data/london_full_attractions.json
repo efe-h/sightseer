@@ -1,0 +1,71 @@
+[
+  {
+    "wikidata_id": "Q6373",
+    "name": "British Museum",
+    "category": "museum",
+    "description": "national museum in London, United Kingdom",
+    "latitude": 51.519444444,
+    "longitude": -0.126944444,
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Museum%20from%20NE%202%20%28cropped%29.JPG",
+    "sitelinks": 108,
+    "llm_description": "The British Museum, located in the heart of London, is a world-renowned institution housing a vast collection of art and artifacts from around the globe. Founded in 1753, it offers a fascinating journey through human history, culture, and creativity, with highlights including the Rosetta Stone and the Parthenon sculptures.",
+    "scores": {
+      "history": 5,
+      "art": 5,
+      "architecture": 4,
+      "nature": 2,
+      "science": 3,
+      "food": 1,
+      "entertainment": 3,
+      "shopping": 1,
+      "views": 3,
+      "family": 4
+    }
+  },
+  {
+    "wikidata_id": "Q62378",
+    "name": "Tower of London",
+    "category": "museum",
+    "description": "castle in central London, United Kingdom",
+    "latitude": 51.5082,
+    "longitude": -0.076198055,
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20London%20viewed%20from%20the%20River%20Thames.jpg",
+    "sitelinks": 88,
+    "llm_description": "The Tower of London, a historic castle and UNESCO World Heritage Site, offers a fascinating glimpse into England's past. Home to the Crown Jewels, it features stunning architecture, immersive exhibitions, and breathtaking views of the Thames. A must-visit for history enthusiasts and families alike.",
+    "scores": {
+      "history": 5,
+      "art": 3,
+      "architecture": 5,
+      "nature": 2,
+      "science": 3,
+      "food": 1,
+      "entertainment": 4,
+      "shopping": 1,
+      "views": 5,
+      "family": 5
+    }
+  },
+  {
+    "wikidata_id": "Q192988",
+    "name": "Royal Observatory",
+    "category": "museum",
+    "description": "observatory in Greenwich, London, UK",
+    "latitude": 51.477833333,
+    "longitude": -0.001388888,
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20observatory%20greenwich.jpg",
+    "sitelinks": 61,
+    "llm_description": "The Royal Observatory in Greenwich, London, is a historic site offering fascinating insights into astronomy and timekeeping. Home to the Prime Meridian Line, it features exhibitions on celestial navigation, the history of time, and the famous 28-inch telescope. The grounds provide scenic views of the Thames and the city skyline, making it a must-visit for science enthusiasts and history buffs alike.",
+    "scores": {
+      "history": 4,
+      "art": 2,
+      "architecture": 3,
+      "nature": 2,
+      "science": 5,
+      "food": 1,
+      "entertainment": 3,
+      "shopping": 1,
+      "views": 4,
+      "family": 3
+    }
+  }
+]
