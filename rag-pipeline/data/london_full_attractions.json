@@ -8,19 +8,30 @@
     "longitude": -0.126944444,
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Museum%20from%20NE%202%20%28cropped%29.JPG",
     "sitelinks": 108,
-    "llm_description": "The British Museum, located in the heart of London, is a world-renowned institution housing a vast collection of art and artifacts from around the globe. Founded in 1753, it offers a fascinating journey through human history, culture, and creativity, with highlights including the Rosetta Stone and the Parthenon sculptures.",
-    "scores": {
+    "summary": "The British Museum is a world-renowned museum in London, home to a vast collection of art and artifacts from around the globe. Its iconic architecture and diverse exhibits, including the Rosetta Stone and the Elgin Marbles, offer a fascinating journey through human history and culture.",
+    "themes": [
+      "history",
+      "art",
+      "culture",
+      "ancient history"
+    ],
+    "interest_scores": {
       "history": 5,
       "art": 5,
       "architecture": 4,
       "nature": 2,
       "science": 3,
       "food": 1,
-      "entertainment": 3,
+      "entertainment": 2,
       "shopping": 1,
       "views": 3,
       "family": 4
-    }
+    },
+    "recommended_visit_time": "morning",
+    "estimated_visit_mins": 120,
+    "indoor": true,
+    "family_friendly": true,
+    "price_level": "free"
   },
   {
     "wikidata_id": "Q62378",
@@ -31,19 +42,30 @@
     "longitude": -0.076198055,
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20London%20viewed%20from%20the%20River%20Thames.jpg",
     "sitelinks": 88,
-    "llm_description": "The Tower of London, a historic castle and UNESCO World Heritage Site, offers a fascinating glimpse into England's past. Home to the Crown Jewels, it features stunning architecture, immersive exhibitions, and breathtaking views of the Thames. A must-visit for history enthusiasts and families alike.",
-    "scores": {
+    "summary": "The Tower of London is a historic castle and museum located on the north bank of the River Thames. It is a UNESCO World Heritage Site, renowned for its rich history, stunning architecture, and the famous Crown Jewels. Visitors can explore its ancient buildings, learn about its role in British history, and view the iconic Crown Jewels.",
+    "themes": [
+      "history",
+      "architecture",
+      "royalty",
+      "military history"
+    ],
+    "interest_scores": {
       "history": 5,
       "art": 3,
       "architecture": 5,
-      "nature": 2,
-      "science": 3,
+      "nature": 1,
+      "science": 2,
       "food": 1,
-      "entertainment": 4,
+      "entertainment": 3,
       "shopping": 1,
-      "views": 5,
-      "family": 5
-    }
+      "views": 4,
+      "family": 4
+    },
+    "recommended_visit_time": "morning",
+    "estimated_visit_mins": 120,
+    "indoor": true,
+    "family_friendly": true,
+    "price_level": "££"
   },
   {
     "wikidata_id": "Q192988",
@@ -54,18 +76,28 @@
     "longitude": -0.001388888,
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20observatory%20greenwich.jpg",
     "sitelinks": 61,
-    "llm_description": "The Royal Observatory in Greenwich, London, is a historic site offering fascinating insights into astronomy and timekeeping. Home to the Prime Meridian Line, it features exhibitions on celestial navigation, the history of time, and the famous 28-inch telescope. The grounds provide scenic views of the Thames and the city skyline, making it a must-visit for science enthusiasts and history buffs alike.",
-    "scores": {
+    "summary": "The Royal Observatory in Greenwich, London, is a historic site offering insights into astronomy and navigation. Home to the Prime Meridian Line, it features exhibitions on timekeeping, the history of the telescope, and the work of famous astronomers. The site also includes the Octagon Room and the Meridian Court, providing a blend of scientific and historical interest.",
+    "themes": [
+      "science",
+      "history",
+      "technology"
+    ],
+    "interest_scores": {
       "history": 4,
       "art": 2,
       "architecture": 3,
-      "nature": 2,
+      "nature": 1,
       "science": 5,
       "food": 1,
-      "entertainment": 3,
+      "entertainment": 2,
       "shopping": 1,
-      "views": 4,
-      "family": 3
-    }
+      "views": 3,
+      "family": 4
+    },
+    "recommended_visit_time": "morning",
+    "estimated_visit_mins": 60,
+    "indoor": true,
+    "family_friendly": true,
+    "price_level": "£"
   }
 ]
