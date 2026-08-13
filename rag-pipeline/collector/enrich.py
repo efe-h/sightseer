@@ -8,6 +8,7 @@ MODEL = "qwen3:14b"
 
 INPUT_FILE = Path("../data/london_attractions.json")
 OUTPUT_FILE = Path("../data/london_full_attractions.json")
+FAILED_FILE = Path("../data/london_failed_attractions.json")
 
 INTERESTS = [
     "history",
@@ -231,6 +232,33 @@ Attraction information:
 {json.dumps(attraction, indent=2)}
 """
 
+def load_json_list(file_path):
+    """Load a JSON list, returning an empty list if the file does not exist."""
+    if not file_path.exists():
+        return []
+
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    if not isinstance(data, list):
+        raise ValueError(f"{file_path} must contain a JSON list")
+
+    return data
+
+
+def save_json_list(file_path, data):
+    """Save safely using a temporary file before replacing the output."""
+    temporary_file = file_path.with_suffix(file_path.suffix + ".tmp")
+
+    with open(temporary_file, "w", encoding="utf-8") as file:
+        json.dump(
+            data,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    temporary_file.replace(file_path)
 
 def enrich_attraction(attraction, max_retries=3):
     prompt = create_prompt(attraction)
@@ -351,45 +379,95 @@ def enrich_attraction(attraction, max_retries=3):
 
 
 def main():
-    with open(INPUT_FILE, "r", encoding="utf-8") as file:
-        attractions = json.load(file)
+    attractions = load_json_list(INPUT_FILE)
 
-    enriched_attractions = []
+    # Resume from results saved by an earlier run
+    enriched_attractions = load_json_list(OUTPUT_FILE)
+    failed_attractions = load_json_list(FAILED_FILE)
 
-    # TESTING: only process the first 20 attractions
-    for i, attraction in enumerate(attractions[:20], start=1):
+    processed_ids = {
+        attraction["wikidata_id"]
+        for attraction in enriched_attractions
+        if attraction.get("wikidata_id")
+    }
+
+    failed_ids = {
+        attraction["wikidata_id"]
+        for attraction in failed_attractions
+        if attraction.get("wikidata_id")
+    }
+
+    print(
+        f"Loaded {len(enriched_attractions)} previously enriched attractions"
+    )
+
+    # TESTING FINISHED: running on all attractions
+    attractions_to_process = attractions
+
+    for i, attraction in enumerate(attractions_to_process, start=1):
+        attraction_id = attraction.get("wikidata_id")
+        attraction_name = attraction.get("name", "Unknown attraction")
+
         print(
-            f"\nEnriching {i}/{min(20, len(attractions))}: "
-            f"{attraction['name']}"
+            f"\nEnriching {i}/{len(attractions_to_process)}: "
+            f"{attraction_name}"
         )
+
+        if not attraction_id:
+            print("✗ Skipped: missing wikidata_id")
+            continue
+
+        if attraction_id in processed_ids:
+            print("↷ Already enriched — skipping")
+            continue
 
         try:
             enrichment = enrich_attraction(attraction)
 
-            attraction["summary"] = enrichment["summary"]
-            attraction["themes"] = enrichment["themes"]
-            attraction["interest_scores"] = enrichment["interest_scores"]
-            attraction["recommended_visit_time"] = enrichment["recommended_visit_time"]
-            attraction["estimated_visit_mins"] = enrichment["estimated_visit_mins"]
-            attraction["indoor"] = enrichment["indoor"]
-            attraction["family_friendly"] = enrichment["family_friendly"]
-            attraction["price_level"] = enrichment["price_level"]
+            # Make a new dictionary rather than changing the raw attraction
+            enriched_attraction = {
+                **attraction,
+                **enrichment,
+            }
 
-            enriched_attractions.append(attraction)
+            enriched_attractions.append(enriched_attraction)
+            processed_ids.add(attraction_id)
+            # Remove the attraction from the failure list if it previously failed
+            if attraction_id in failed_ids:
+                failed_attractions = [
+                    failed
+                    for failed in failed_attractions
+                    if failed.get("wikidata_id") != attraction_id
+                ]
 
-            # Save immediately
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
-                json.dump(
-                    enriched_attractions,
-                    file,
-                    indent=2,
-                    ensure_ascii=False,
+                failed_ids.remove(attraction_id)
+                save_json_list(
+                    FAILED_FILE,
+                    failed_attractions,
                 )
+
+            save_json_list(
+                OUTPUT_FILE,
+                enriched_attractions,
+            )
 
             print("✓ Done")
 
         except Exception as e:
             print(f"✗ Failed after retries: {e}")
+
+            if attraction_id not in failed_ids:
+                failed_attractions.append({
+                    "wikidata_id": attraction_id,
+                    "name": attraction_name,
+                    "error": str(e),
+                })
+
+                failed_ids.add(attraction_id)
+                save_json_list(
+                    FAILED_FILE,
+                    failed_attractions,
+                )
 
 
 if __name__ == "__main__":
