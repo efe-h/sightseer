@@ -24,7 +24,7 @@ class FullAttraction:
     estimated_visit_mins: int
     indoor: bool
     family_friendly: bool
-    free_entry: bool
+    price_level: Literal["free", "£", "££", "£££"]
 
     # clustering
 

@@ -1,3 +1,6 @@
 requests
 python-dotenv
 psycopg2-binary
+geopandas
+pandas
+scikit-learn
