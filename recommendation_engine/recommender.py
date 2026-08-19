@@ -27,68 +27,6 @@ INTERESTS = [
 
 MAX_DISTANCE = np.sqrt(len(INTERESTS) * (5 - 1) ** 2)
 
-MOCK_USERS = {
-    "history_lover": {
-        "history": 5,
-        "art": 3,
-        "architecture": 4,
-        "nature": 2,
-        "science": 2,
-        "food": 1,
-        "entertainment": 2,
-        "shopping": 1,
-        "views": 3,
-        "family": 1,
-    },
-    "art_and_culture": {
-        "history": 3,
-        "art": 5,
-        "architecture": 4,
-        "nature": 2,
-        "science": 2,
-        "food": 2,
-        "entertainment": 4,
-        "shopping": 3,
-        "views": 2,
-        "family": 1,
-    },
-    "family_day_out": {
-        "history": 3,
-        "art": 2,
-        "architecture": 2,
-        "nature": 4,
-        "science": 4,
-        "food": 3,
-        "entertainment": 5,
-        "shopping": 2,
-        "views": 3,
-        "family": 5,
-    },
-    "nature_and_views": {
-        "history": 2,
-        "art": 2,
-        "architecture": 3,
-        "nature": 5,
-        "science": 2,
-        "food": 2,
-        "entertainment": 3,
-        "shopping": 1,
-        "views": 5,
-        "family": 3,
-    },
-    "food_shopping_and_fun": {
-        "history": 1,
-        "art": 2,
-        "architecture": 2,
-        "nature": 2,
-        "science": 1,
-        "food": 5,
-        "entertainment": 5,
-        "shopping": 5,
-        "views": 3,
-        "family": 2,
-    },
-}
 
 def validate_user_preferences(preferences: dict, interests: list) -> bool:
     """
@@ -106,7 +44,7 @@ def validate_user_preferences(preferences: dict, interests: list) -> bool:
     if set(preferences.keys()) != set(interests):
         return False
 
-    return all(isinstance(score, (int, float)) and 1 <= score <= 5 for score in preferences.values())
+    return all(isinstance(score, (int, float)) and not isinstance(score, bool) and 1 <= score <= 5 for score in preferences.values())
 
 def load_attractions(attractions_file=DATA_FILE):
     df = pd.read_json(attractions_file)
@@ -189,6 +127,7 @@ def top_3_attractions_per_cluster(recommendations: pd.DataFrame) -> pd.DataFrame
     """
     top_attractions_per_cluster = (
         recommendations
+        .sort_values(["cluster_id", "match_score", "name"], ascending=[True, False, True])
         .groupby("cluster_id", group_keys=False)
         .head(3)
         .reset_index(drop=True)
