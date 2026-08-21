@@ -1,9 +1,9 @@
 package com.sightseer.backend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.sightseer.backend.entity.Category;
+import com.sightseer.backend.entity.UserPreference;
 
-public interface CategoryRepository extends JpaRepository<Category, Long> {
+public interface UserPreferenceRepository extends JpaRepository<UserPreference, Long> {
     // Additional custom query methods can be defined here if needed
 
 }

@@ -1,10 +1,10 @@
 package com.sightseer.backend.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import lombok.Getter;
 import lombok.Setter;
 import java.time.LocalDateTime;
-import java.util.*;
 
 @Entity
 @Table(name = "users")
@@ -15,10 +15,11 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Trip> trips = new ArrayList<>();
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private UserPreference preferences;
 
     @Column(nullable = false, length = 255, unique = true)
+    @Email
     private String email;
 
     @Column(nullable = false, length = 255)
