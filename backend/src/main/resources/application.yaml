@@ -22,3 +22,8 @@ spring:
   logging:
     level:
       org.springframework.boot.context.config: DEBUG
+
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: PT1H
