@@ -47,4 +47,22 @@ public class GlobalExceptionHandler {
                         FieldError::getDefaultMessage));
         return buildErrorResponse(HttpStatus.BAD_REQUEST, "The request contains invalid fields", fieldErrors);
     }
+
+    // UserNotFoundException handler
+    @ExceptionHandler(UserNotFoundException.class)
+    public ResponseEntity<ApiError> handleUserNotFoundException(UserNotFoundException ex) {
+        return buildErrorResponse(HttpStatus.NOT_FOUND, ex.getMessage(), Map.of());
+    }
+
+    // PreferenceNotFoundException handler
+    @ExceptionHandler(PreferenceNotFoundException.class)
+    public ResponseEntity<ApiError> handlePreferenceNotFoundException(PreferenceNotFoundException ex) {
+        return buildErrorResponse(HttpStatus.NOT_FOUND, ex.getMessage(), Map.of());
+    }
+
+    // InvalidTokenClaimsException handler
+    @ExceptionHandler(InvalidTokenClaimsException.class)
+    public ResponseEntity<ApiError> handleInvalidTokenClaimsException(InvalidTokenClaimsException ex) {
+        return buildErrorResponse(HttpStatus.UNAUTHORIZED, ex.getMessage(), Map.of());
+    }
 }
