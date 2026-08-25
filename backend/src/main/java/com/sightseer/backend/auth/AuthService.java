@@ -5,10 +5,12 @@ import com.sightseer.backend.auth.dto.LoginRequest;
 import com.sightseer.backend.auth.dto.AuthResponse;
 import com.sightseer.backend.entity.User;
 import com.sightseer.backend.repository.UserRepository;
+
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
+import com.sightseer.backend.exception.DuplicateEmailException;
 import java.util.Locale;
 
 @Service
@@ -33,7 +35,7 @@ public class AuthService {
         String normalisedEmail = normalizeEmail(request.email());
 
         if (userRepository.existsByEmail(normalisedEmail)) {
-            throw new IllegalArgumentException(
+            throw new DuplicateEmailException(
                     "An account with this email already exists");
         }
 
@@ -57,11 +59,11 @@ public class AuthService {
         String normalisedEmail = normalizeEmail(request.email());
 
         User user = userRepository.findByEmail(normalisedEmail)
-                .orElseThrow(() -> new IllegalArgumentException(
+                .orElseThrow(() -> new BadCredentialsException(
                         "Invalid email or password"));
 
         if (!passwordEncoder.matches(request.password(), user.getPasswordHash())) {
-            throw new IllegalArgumentException(
+            throw new BadCredentialsException(
                     "Invalid email or password");
         }
 
