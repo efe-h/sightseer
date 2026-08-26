@@ -21,7 +21,11 @@ public class SecurityConfig {
                         .requestMatchers(
                                 "/api/auth/register",
                                 "/api/auth/login",
-                                "/error")
+                                "/error",
+                                // the swagger endpoints
+                                "/v3/api-docs/**",
+                                "/swagger-ui/**",
+                                "/swagger-ui.html")
                         .permitAll()
                         .anyRequest()
                         .authenticated())

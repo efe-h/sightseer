@@ -4,12 +4,15 @@ import com.sightseer.backend.preference.dto.PreferenceResponse;
 import com.sightseer.backend.preference.dto.PreferenceRequest;
 import com.sightseer.backend.repository.UserRepository;
 import com.sightseer.backend.repository.UserPreferenceRepository;
+
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.sightseer.backend.entity.User;
 import com.sightseer.backend.exception.UserNotFoundException;
 import com.sightseer.backend.entity.UserPreference;
 import com.sightseer.backend.exception.PreferenceNotFoundException;
 
+@Service
 public class PreferenceService {
     private final UserPreferenceRepository userPreferenceRepository;
     private final UserRepository userRepository;
