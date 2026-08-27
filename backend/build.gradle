@@ -38,6 +38,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
 	testImplementation 'org.springframework.security:spring-security-test'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:3.1.0'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.mockito:mockito-junit-jupiter'
+	testImplementation 'org.testcontainers:testcontainers-postgresql:2.0.5'
+	testImplementation 'org.testcontainers:testcontainers-junit-jupiter:2.0.5'
 }
 
 tasks.named('test') {
