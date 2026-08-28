@@ -1,4 +1,4 @@
-name: Recommender Tests
+name: Recommender Tests and FastAPI Tests
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -30,12 +30,4 @@ jobs:
 
       - name: Run recommender unit tests
         run: |
-          python -m pytest \
-            recommendation_engine/tests/recommender_unit_test.py \
-            -v
-
-      - name: Run recommender integration test
-        run: |
-          python -m pytest \
-            recommendation_engine/tests/recommender_integration_test.py \
-            -v
+          python -m pytest recommendation_engine/tests -v
