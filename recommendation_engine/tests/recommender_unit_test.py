@@ -187,6 +187,16 @@ def test_top_3_attractions_per_cluster_returns_best_three():
         "b4",
     }
 
+    assert top.loc[
+        top["cluster_id"] == 1,
+        "match_score",
+    ].tolist() == [40, 30, 20]
+
+    assert top.loc[
+        top["cluster_id"] == 2,
+        "match_score",
+    ].tolist() == [80, 70, 60]
+
 # -------------------------------------
 # tests for rank_clusters
 # -------------------------------------

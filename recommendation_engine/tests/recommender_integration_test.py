@@ -64,3 +64,27 @@ def test_recommend_runs_complete_pipeline():
     assert set(top_attractions["cluster_id"]) == set(
         cluster_rankings["cluster_id"]
     )
+
+    # Attraction groups should follow the cluster ranking order
+    expected_cluster_order = (
+        cluster_rankings["cluster_id"].tolist()
+    )
+
+    actual_cluster_order = (
+        top_attractions["cluster_id"]
+        .drop_duplicates()
+        .tolist()
+    )
+
+    assert actual_cluster_order == expected_cluster_order
+
+
+    # Attractions within every cluster should be ordered
+    # by match score descending
+    for _, cluster_attractions in top_attractions.groupby(
+        "cluster_id",
+        sort=False,
+    ):
+        assert cluster_attractions[
+            "match_score"
+        ].is_monotonic_decreasing

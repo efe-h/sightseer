@@ -178,4 +178,21 @@ def recommend(user_preferences: dict) -> dict:
     top_attractions = top_3_attractions_per_cluster(recommendations)
     cluster_rankings = rank_clusters(top_attractions)
 
+    # merge the cluster rankings with the top attractions to include the rank in the top attractions DataFrame
+    top_attractions = (
+    top_attractions
+    .merge(
+        cluster_rankings[["cluster_id", "rank"]],
+        on="cluster_id",
+        how="left",
+        validate="many_to_one",
+    )
+    .sort_values(
+        ["rank", "match_score", "name"],
+        ascending=[True, False, True],
+    )
+    .drop(columns="rank")
+    .reset_index(drop=True)
+)
+
     return {"cluster_rankings": cluster_rankings, "top_attractions": top_attractions}

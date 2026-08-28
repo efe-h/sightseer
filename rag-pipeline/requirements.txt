@@ -6,3 +6,6 @@ pandas
 scikit-learn
 pytest
 pytest-mock
+fastapi
+uvicorn[standard]
+httpx
