@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 import org.springframework.http.MediaType;
-import java.nio.charset.StandardCharsets;
 import java.net.http.HttpClient;
 import org.springframework.http.client.JdkClientHttpRequestFactory;
 
