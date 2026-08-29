@@ -14,6 +14,7 @@ public record AttractionRecommendationResponse(
         Double latitude,
         Double longitude,
 
+        // String is nullable, so its fine here
         @JsonProperty("image_url") String imageUrl,
 
         List<String> themes,
