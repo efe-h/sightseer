@@ -5,6 +5,10 @@ import com.sightseer.backend.recommendation.dto.RecommendationResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
+import org.springframework.http.MediaType;
+import java.nio.charset.StandardCharsets;
+import java.net.http.HttpClient;
+import org.springframework.http.client.JdkClientHttpRequestFactory;
 
 // Controller
 //     ↓ handles frontend HTTP request
@@ -36,11 +40,51 @@ public class FastApiRecommendationClient
          */
         private final RestClient restClient;
 
+        // the old constructor used HTTP/2, which the FastAPI/uvicorn server does not
+        // support, so we need to use HTTP/1.1 explicitly
+        // public FastApiRecommendationClient(
+        // RestClient.Builder restClientBuilder,
+        // @Value("${services.recommendation.base-url}") String
+        // recommendationServiceBaseUrl) {
+        // this.restClient = restClientBuilder
+        // .baseUrl(recommendationServiceBaseUrl)
+        // .requestInterceptor(
+        // (httpRequest, body, execution) -> {
+        // System.out.println(
+        // "Outgoing content type: "
+        // + httpRequest.getHeaders()
+        // .getContentType());
+
+        // System.out.println(
+        // "Outgoing request body: "
+        // + new String(
+        // body,
+        // StandardCharsets.UTF_8));
+
+        // return execution.execute(
+        // httpRequest,
+        // body);
+        // })
+        // .build();
+        // }
+
         public FastApiRecommendationClient(
                         RestClient.Builder restClientBuilder,
                         @Value("${services.recommendation.base-url}") String recommendationServiceBaseUrl) {
+                /*
+                 * Uvicorn does not support Java's clear-text HTTP/2
+                 * upgrade attempt, so use HTTP/1.1 explicitly.
+                 */
+                HttpClient httpClient = HttpClient
+                                .newBuilder()
+                                .version(HttpClient.Version.HTTP_1_1)
+                                .build();
+
+                JdkClientHttpRequestFactory requestFactory = new JdkClientHttpRequestFactory(httpClient);
+
                 this.restClient = restClientBuilder
                                 .baseUrl(recommendationServiceBaseUrl)
+                                .requestFactory(requestFactory)
                                 .build();
         }
 
@@ -48,15 +92,12 @@ public class FastApiRecommendationClient
         public RecommendationResponse getRecommendations(
                         RecommendationRequest request) {
                 return restClient
-                                // create a POST request
                                 .post()
-                                // set the URL path for the request
                                 .uri("/recommendations")
-                                // include the 10 user preference scores in the request body
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .accept(MediaType.APPLICATION_JSON)
                                 .body(request)
-                                // send the request and wait for a response
                                 .retrieve()
-                                // convert the JSON response into a RecommendationResponse DTO
                                 .body(RecommendationResponse.class);
         }
 }

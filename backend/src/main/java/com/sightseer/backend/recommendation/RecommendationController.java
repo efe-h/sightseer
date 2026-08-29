@@ -8,10 +8,24 @@ import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.sightseer.backend.config.OpenApiConfig;
+import com.sightseer.backend.exception.ApiError;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 // its a protected endpoint
 @RestController
 @RequestMapping("/api/recommendations")
+@Tag(name = "Recommendations", description = """
+        Generate personalised attraction recommendations
+        for the authenticated user
+        """)
+@SecurityRequirement(name = OpenApiConfig.SECURITY_SCHEME)
 public class RecommendationController {
 
     private final RecommendationService recommendationService;
@@ -30,6 +44,18 @@ public class RecommendationController {
         return userIdNumber.longValue();
     }
 
+    @Operation(summary = "Get personalised recommendations", description = """
+            Loads the authenticated user's saved preferences,
+            sends them to the recommendation service and returns
+            ranked geographical clusters with their top attractions.
+            """)
+    @ApiResponses({
+            @ApiResponse(responseCode = "200", description = "Recommendations generated successfully", content = @Content(schema = @Schema(implementation = RecommendationResponse.class))),
+            @ApiResponse(responseCode = "401", description = "Missing or invalid JWT", content = @Content(schema = @Schema(implementation = ApiError.class))),
+            @ApiResponse(responseCode = "404", description = """
+                    The authenticated user has not saved preferences
+                    """, content = @Content(schema = @Schema(implementation = ApiError.class)))
+    })
     @GetMapping
     public ResponseEntity<RecommendationResponse> getRecommendations(
             @AuthenticationPrincipal Jwt jwt) {
