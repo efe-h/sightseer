@@ -52,9 +52,10 @@ public class RecommendationController {
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "Recommendations generated successfully", content = @Content(schema = @Schema(implementation = RecommendationResponse.class))),
             @ApiResponse(responseCode = "401", description = "Missing or invalid JWT", content = @Content(schema = @Schema(implementation = ApiError.class))),
-            @ApiResponse(responseCode = "404", description = """
-                    The authenticated user has not saved preferences
-                    """, content = @Content(schema = @Schema(implementation = ApiError.class)))
+            @ApiResponse(responseCode = "404", description = "The authenticated user has not saved preferences", content = @Content(schema = @Schema(implementation = ApiError.class))),
+            @ApiResponse(responseCode = "502", description = "The recommendation service returned an invalid response", content = @Content(schema = @Schema(implementation = ApiError.class))),
+            @ApiResponse(responseCode = "503", description = "The recommendation service is unavailable", content = @Content(schema = @Schema(implementation = ApiError.class))),
+            @ApiResponse(responseCode = "504", description = "The recommendation service timed out", content = @Content(schema = @Schema(implementation = ApiError.class)))
     })
     @GetMapping
     public ResponseEntity<RecommendationResponse> getRecommendations(

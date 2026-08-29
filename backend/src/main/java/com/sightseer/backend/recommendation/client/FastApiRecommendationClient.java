@@ -1,5 +1,7 @@
 package com.sightseer.backend.recommendation.client;
 
+import com.sightseer.backend.exception.InvalidRecommendationResponseException;
+import com.sightseer.backend.exception.RecommendationServiceUnavailableException;
 import com.sightseer.backend.recommendation.dto.RecommendationRequest;
 import com.sightseer.backend.recommendation.dto.RecommendationResponse;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,6 +10,14 @@ import org.springframework.web.client.RestClient;
 import org.springframework.http.MediaType;
 import java.net.http.HttpClient;
 import org.springframework.http.client.JdkClientHttpRequestFactory;
+import java.time.Duration;
+import java.net.ConnectException;
+import java.net.SocketTimeoutException;
+import java.net.http.HttpTimeoutException;
+import org.springframework.web.client.ResourceAccessException;
+import org.springframework.web.client.RestClientException;
+import org.springframework.web.client.RestClientResponseException;
+import com.sightseer.backend.exception.RecommendationServiceTimeOutException;
 
 // Controller
 //     ↓ handles frontend HTTP request
@@ -39,47 +49,28 @@ public class FastApiRecommendationClient
          */
         private final RestClient restClient;
 
-        // the old constructor used HTTP/2, which the FastAPI/uvicorn server does not
-        // support, so we need to use HTTP/1.1 explicitly
-        // public FastApiRecommendationClient(
-        // RestClient.Builder restClientBuilder,
-        // @Value("${services.recommendation.base-url}") String
-        // recommendationServiceBaseUrl) {
-        // this.restClient = restClientBuilder
-        // .baseUrl(recommendationServiceBaseUrl)
-        // .requestInterceptor(
-        // (httpRequest, body, execution) -> {
-        // System.out.println(
-        // "Outgoing content type: "
-        // + httpRequest.getHeaders()
-        // .getContentType());
-
-        // System.out.println(
-        // "Outgoing request body: "
-        // + new String(
-        // body,
-        // StandardCharsets.UTF_8));
-
-        // return execution.execute(
-        // httpRequest,
-        // body);
-        // })
-        // .build();
-        // }
-
         public FastApiRecommendationClient(
                         RestClient.Builder restClientBuilder,
                         @Value("${services.recommendation.base-url}") String recommendationServiceBaseUrl) {
                 /*
-                 * Uvicorn does not support Java's clear-text HTTP/2
-                 * upgrade attempt, so use HTTP/1.1 explicitly.
+                 * Maximum time allowed to establish a connection
+                 * with the FastAPI service.
                  */
-                HttpClient httpClient = HttpClient
-                                .newBuilder()
+                HttpClient httpClient = HttpClient.newBuilder()
                                 .version(HttpClient.Version.HTTP_1_1)
+                                .connectTimeout(Duration.ofSeconds(3))
                                 .build();
 
                 JdkClientHttpRequestFactory requestFactory = new JdkClientHttpRequestFactory(httpClient);
+
+                /*
+                 * Maximum time Spring will wait for FastAPI to finish
+                 * processing the recommendation request.
+                 *
+                 * Recommendation generation reads the dataset and performs
+                 * calculations, so this is longer than the connection timeout.
+                 */
+                requestFactory.setReadTimeout(Duration.ofSeconds(10));
 
                 this.restClient = restClientBuilder
                                 .baseUrl(recommendationServiceBaseUrl)
@@ -87,16 +78,63 @@ public class FastApiRecommendationClient
                                 .build();
         }
 
+        // helper method to check if an exception has a specific cause in its chain of
+        // causes
+        private boolean hasCause(
+                        Throwable exception,
+                        Class<? extends Throwable> causeType) {
+                Throwable current = exception;
+
+                while (current != null) {
+                        if (causeType.isInstance(current)) {
+                                return true;
+                        }
+
+                        current = current.getCause();
+                }
+
+                return false;
+        }
+
         @Override
         public RecommendationResponse getRecommendations(
                         RecommendationRequest request) {
-                return restClient
-                                .post()
-                                .uri("/recommendations")
-                                .contentType(MediaType.APPLICATION_JSON)
-                                .accept(MediaType.APPLICATION_JSON)
-                                .body(request)
-                                .retrieve()
-                                .body(RecommendationResponse.class);
+                try {
+                        RecommendationResponse response = restClient
+                                        .post()
+                                        .uri("/recommendations")
+                                        .contentType(MediaType.APPLICATION_JSON)
+                                        .accept(MediaType.APPLICATION_JSON)
+                                        .body(request)
+                                        .retrieve()
+                                        .body(RecommendationResponse.class);
+                        if (response == null) {
+                                throw new InvalidRecommendationResponseException();
+                        }
+                        return response;
+                } catch (RestClientResponseException ex) {
+                        // FastAPI responded with an unsuccessful status,
+                        // such as 422 or 500.
+                        throw new InvalidRecommendationResponseException();
+
+                } catch (ResourceAccessException ex) {
+                        // Spring could not complete the network request.
+                        if (hasCause(ex, HttpTimeoutException.class)
+                                        || hasCause(ex, SocketTimeoutException.class)) {
+                                throw new RecommendationServiceTimeOutException();
+                        }
+
+                        if (hasCause(ex, ConnectException.class)) {
+                                throw new RecommendationServiceUnavailableException();
+                        }
+
+                        // Other network failures are treated as unavailable.
+                        throw new RecommendationServiceUnavailableException();
+
+                } catch (RestClientException ex) {
+                        // The request completed, but Spring could not convert
+                        // the response body into RecommendationResponse.
+                        throw new InvalidRecommendationResponseException();
+                }
         }
 }

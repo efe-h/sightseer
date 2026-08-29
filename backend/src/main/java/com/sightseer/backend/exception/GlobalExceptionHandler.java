@@ -65,4 +65,25 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiError> handleInvalidTokenClaimsException(InvalidTokenClaimsException ex) {
         return buildErrorResponse(HttpStatus.UNAUTHORIZED, ex.getMessage(), Map.of());
     }
+
+    // RecommendationServiceUnavailableException handler
+    @ExceptionHandler(RecommendationServiceUnavailableException.class)
+    public ResponseEntity<ApiError> handleRecommendationServiceUnavailableException(
+            RecommendationServiceUnavailableException ex) {
+        return buildErrorResponse(HttpStatus.SERVICE_UNAVAILABLE, ex.getMessage(), Map.of());
+    }
+
+    // RecommendationServiceTimeOutException handler
+    @ExceptionHandler(RecommendationServiceTimeOutException.class)
+    public ResponseEntity<ApiError> handleRecommendationServiceTimeOutException(
+            RecommendationServiceTimeOutException ex) {
+        return buildErrorResponse(HttpStatus.GATEWAY_TIMEOUT, ex.getMessage(), Map.of());
+    }
+
+    // InvalidRecommendationResponseException handler
+    @ExceptionHandler(InvalidRecommendationResponseException.class)
+    public ResponseEntity<ApiError> handleInvalidRecommendationResponseException(
+            InvalidRecommendationResponseException ex) {
+        return buildErrorResponse(HttpStatus.BAD_GATEWAY, ex.getMessage(), Map.of());
+    }
 }
