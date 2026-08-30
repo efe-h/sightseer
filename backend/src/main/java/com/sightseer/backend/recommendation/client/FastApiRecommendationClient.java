@@ -51,14 +51,16 @@ public class FastApiRecommendationClient
 
         public FastApiRecommendationClient(
                         RestClient.Builder restClientBuilder,
-                        @Value("${services.recommendation.base-url}") String recommendationServiceBaseUrl) {
+                        @Value("${services.recommendation.base-url}") String recommendationServiceBaseUrl,
+                        @Value("${services.recommendation.connect-timeout:3s}") Duration connectTimeout,
+                        @Value("${services.recommendation.read-timeout:10s}") Duration readTimeout) {
                 /*
                  * Maximum time allowed to establish a connection
                  * with the FastAPI service.
                  */
                 HttpClient httpClient = HttpClient.newBuilder()
                                 .version(HttpClient.Version.HTTP_1_1)
-                                .connectTimeout(Duration.ofSeconds(3))
+                                .connectTimeout(connectTimeout)
                                 .build();
 
                 JdkClientHttpRequestFactory requestFactory = new JdkClientHttpRequestFactory(httpClient);
@@ -70,7 +72,7 @@ public class FastApiRecommendationClient
                  * Recommendation generation reads the dataset and performs
                  * calculations, so this is longer than the connection timeout.
                  */
-                requestFactory.setReadTimeout(Duration.ofSeconds(10));
+                requestFactory.setReadTimeout(readTimeout);
 
                 this.restClient = restClientBuilder
                                 .baseUrl(recommendationServiceBaseUrl)
