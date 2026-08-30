@@ -1,0 +1,14 @@
+.git
+.github
+.env
+**/.DS_Store
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.venv
+**/build
+**/.gradle
+**/.idea
+**/.vscode
+**/*.ipynb
+rag-pipeline/clustering

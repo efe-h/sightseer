@@ -2,14 +2,76 @@ services:
   postgres:
     image: postgres:15
     container_name: sightseer_postgres
+
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_DB: ${POSTGRES_DB:-sightseer_db}
+      POSTGRES_USER: ${POSTGRES_USER:-sightseer_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sightseer_password}
+
     ports:
       - "5432:5432"
+    
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  
+  recommendation-api:
+    build:
+      context: .
+      dockerfile: recommendation_engine/Dockerfile
+
+    image: sightseer-recommendation
+    container_name: sightseer-recommendation
+
+    ports:
+      - "8000:8000"
+
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >
+          import urllib.request;
+          urllib.request.urlopen(
+              'http://localhost:8000/health',
+              timeout=2
+          )
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+
+    image: sightseer-backend
+    container_name: sightseer-backend
+
+    environment:
+      DATABASE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-sightseer_db}
+      POSTGRES_USER: ${POSTGRES_USER:-sightseer_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sightseer_password}
+      JWT_SECRET: ${JWT_SECRET}
+      RECOMMENDATION_SERVICE_URL: http://recommendation-api:8000
+
+    ports:
+      - "8080:8080"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+      recommendation-api:
+        condition: service_healthy
 
 volumes:
   postgres_data:
