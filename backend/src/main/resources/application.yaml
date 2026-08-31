@@ -24,6 +24,9 @@ app:
     secret: ${JWT_SECRET}
     expiration: PT1H
 
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+
 services:
   recommendation:
     base-url: ${RECOMMENDATION_SERVICE_URL:http://localhost:8000}
