@@ -75,26 +75,17 @@ function AuthProvider({ children }: PropsWithChildren) {
       return;
     }
 
-    const expiration =
-      getTokenExpiration(token);
-
-    if (expiration === null) {
-      logout();
-      return;
-    }
-
-    const remainingTime =
-      expiration - Date.now();
-
-    if (remainingTime <= 0) {
-      logout();
-      return;
-    }
+    const expiration = getTokenExpiration(token);
 
     /*
-     * Automatically update authentication state at
-     * the exact time the JWT expires.
+     * An invalid or already-expired token gets a delay of
+     * zero, so logout runs asynchronously after this effect.
      */
+    const remainingTime =
+      expiration === null
+        ? 0
+        : Math.max(expiration - Date.now(), 0);
+
     const timeoutId = window.setTimeout(
       logout,
       remainingTime,
