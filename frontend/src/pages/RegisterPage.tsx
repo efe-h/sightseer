@@ -13,6 +13,8 @@ import {
   register,
 } from "../api/AuthApi";
 
+import { useAuth } from "../hooks/useAuth";
+
 function RegisterPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -21,6 +23,7 @@ function RegisterPage() {
   const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+  const { saveAuthentication } = useAuth();
 
   async function handleSubmit(event: ReactSubmitEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -54,8 +57,7 @@ function RegisterPage() {
       * We will move this responsibility into AuthContext
       * when we create shared authentication state.
       */
-      localStorage.setItem("authToken", response.token);
-      localStorage.setItem("userEmail", response.email);
+      saveAuthentication(response);
 
       // move on to the next page
       navigate("/preferences");

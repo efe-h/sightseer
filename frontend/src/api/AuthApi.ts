@@ -48,3 +48,32 @@ export async function register(
 
   return responseBody as AuthResponse;
 }
+
+export async function login(
+  email: string,
+  password: string,
+): Promise<AuthResponse> {
+  const response = await fetch(
+    `${API_BASE_URL}/api/auth/login`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    },
+  );
+
+  const responseBody = await response.json();
+
+  if (!response.ok) {
+    throw new ApiRequestError(
+      responseBody as ApiErrorResponse,
+    );
+  }
+
+  return responseBody as AuthResponse;
+}
