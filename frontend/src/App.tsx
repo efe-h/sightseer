@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import PreferencesPage from "./pages/PreferencesPage";
 import RecommendationsPage from "./pages/RecommendationsPage";
 import RegisterPage from "./pages/RegisterPage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
@@ -12,11 +13,16 @@ function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/preferences" element={<PreferencesPage />} />
-      <Route
-        path="/recommendations"
-        element={<RecommendationsPage />}
-      />
+      {/* Protected routes */}
+      <Route element={<ProtectedRoute />}>
+        <Route path="/preferences" element={<PreferencesPage />} />
+      </Route>
+      <Route element={<ProtectedRoute />}>
+        <Route
+          path="/recommendations"
+          element={<RecommendationsPage />}
+        />
+      </Route>
     </Routes>
   );
 }
