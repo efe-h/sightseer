@@ -109,6 +109,18 @@ function RecommendationsPage() {
           );
         }
       } catch (caughtError: unknown) {
+        if (
+          caughtError instanceof ApiRequestError &&
+          caughtError.status === 401
+        ) {
+          logout();
+          navigate("/login", {
+            replace: true,
+          });
+
+          return;
+        }
+
         if (!cancelled) {
           setError(
             caughtError instanceof ApiRequestError
@@ -128,7 +140,7 @@ function RecommendationsPage() {
     return () => {
       cancelled = true;
     };
-  }, [token]);
+  }, [token, logout, navigate]);
 
   function handleLogout() {
     logout();

@@ -144,6 +144,18 @@ function PreferencesPage() {
       } catch (caughtError: unknown) {
         if (
           caughtError instanceof ApiRequestError &&
+          caughtError.status === 401
+        ) {
+          logout();
+          navigate("/login", {
+            replace: true,
+          });
+
+          return;
+        }
+
+        if (
+          caughtError instanceof ApiRequestError &&
           caughtError.status === 404
         ) {
           /*
@@ -172,7 +184,7 @@ function PreferencesPage() {
     return () => {
       cancelled = true;
     };
-  }, [token]);
+  }, [token, logout, navigate]);
 
   function updatePreference(
     name: PreferenceName,
@@ -200,6 +212,18 @@ function PreferencesPage() {
       await savePreferences(token, preferences);
       navigate("/recommendations");
     } catch (caughtError: unknown) {
+      if (
+        caughtError instanceof ApiRequestError &&
+        caughtError.status === 401
+      ) {
+        logout();
+        navigate("/login", {
+          replace: true,
+        });
+
+        return;
+      }
+
       setError(
         caughtError instanceof ApiRequestError
           ? caughtError.message
