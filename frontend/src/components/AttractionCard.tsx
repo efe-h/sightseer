@@ -6,6 +6,10 @@ import type {
 
 interface AttractionCardProps {
   attraction: AttractionRecommendation;
+  isSelected: boolean;
+  onSelect: (
+    attraction: AttractionRecommendation,
+  ) => void;
 }
 
 function formatCategory(category: string) {
@@ -18,6 +22,8 @@ function formatCategory(category: string) {
 
 function AttractionCard({
   attraction,
+  isSelected,
+  onSelect,
 }: AttractionCardProps) {
   const [imageFailed, setImageFailed] =
     useState(false);
@@ -33,7 +39,26 @@ function AttractionCard({
     !imageFailed;
 
   return (
-    <article className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+    <article
+      role="button"
+      tabIndex={0}
+      aria-label={`Show ${attraction.name} on the map`}
+      onClick={() => onSelect(attraction)}
+      onKeyDown={(event) => {
+        if (
+          event.key === "Enter" ||
+          event.key === " "
+        ) {
+          event.preventDefault();
+          onSelect(attraction);
+        }
+      }}
+      className={
+        isSelected
+          ? "cursor-pointer overflow-hidden rounded-2xl border border-emerald-600 bg-white shadow-lg ring-4 ring-emerald-200 transition"
+          : "cursor-pointer overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700"
+      }
+    >
       <div className="relative aspect-[16/10] overflow-hidden bg-emerald-100">
         {showImage ? (
           <img
@@ -134,6 +159,12 @@ function AttractionCard({
             Family-friendly
           </p>
         )}
+
+        <p className="mt-4 text-sm font-semibold text-emerald-700">
+          {isSelected
+            ? "Selected on map"
+            : "Select to show on map"}
+        </p>
       </div>
     </article>
   );

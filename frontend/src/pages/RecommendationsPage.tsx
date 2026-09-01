@@ -21,7 +21,10 @@ import { useAuth } from "../hooks/useAuth";
 
 import type {
   RecommendationResponse,
+  AttractionRecommendation,
 } from "../types/recommendations";
+
+import RecommendationMap from "../components/RecommendationMap";
 
 const INITIAL_CLUSTER_COUNT = 5;
 
@@ -64,6 +67,10 @@ function RecommendationsPage() {
 
   const [error, setError] = useState("");
 
+  const [selectedClusterId, setSelectedClusterId] = useState<number | null>(null);
+
+  const [selectedAttraction, setSelectedAttraction] = useState<AttractionRecommendation | null>(null);
+
   useEffect(() => {
     if (!token) {
       return;
@@ -78,6 +85,20 @@ function RecommendationsPage() {
 
         if (!cancelled) {
           setRecommendations(response);
+
+          setSelectedClusterId(
+            response.cluster_rankings[0]?.cluster_id ??
+              null,
+          );
+
+          setSelectedAttraction(
+            response.top_attractions.find(
+              (attraction) =>
+                attraction.cluster_id ===
+                response.cluster_rankings[0]
+                  ?.cluster_id,
+            ) ?? null,
+          );
         }
       } catch (caughtError: unknown) {
         if (!cancelled) {
@@ -105,6 +126,68 @@ function RecommendationsPage() {
     logout();
     navigate("/login");
   }
+
+  function handleSelectCluster(clusterId: number) {
+  setSelectedClusterId(clusterId);
+
+  const selectedRanking =
+    recommendations?.cluster_rankings.find(
+      (cluster) =>
+        cluster.cluster_id === clusterId,
+    );
+
+  if (selectedRanking) {
+    /*
+     * Ensure the selected cluster is among the visible
+     * results, even if its rank is currently hidden.
+     */
+    setVisibleClusterCount((current) =>
+      Math.max(current, selectedRanking.rank),
+    );
+  }
+
+  /*
+   * Wait for React to render a previously hidden cluster
+   * before trying to scroll to it.
+   */
+  window.setTimeout(() => {
+    document
+      .getElementById(`cluster-${clusterId}`)
+      ?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+  }, 0);
+}
+
+function handleSelectAttraction(
+  attraction: AttractionRecommendation,
+) {
+  setSelectedAttraction(attraction);
+  setSelectedClusterId(attraction.cluster_id);
+
+  const selectedRanking =
+    recommendations?.cluster_rankings.find(
+      (cluster) =>
+        cluster.cluster_id ===
+        attraction.cluster_id,
+    );
+
+  if (selectedRanking) {
+    setVisibleClusterCount((current) =>
+      Math.max(current, selectedRanking.rank),
+    );
+  }
+
+  window.setTimeout(() => {
+    document
+      .getElementById("recommendation-map")
+      ?.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+  }, 0);
+}
 
   if (isLoading) {
     return (
@@ -246,6 +329,48 @@ function RecommendationsPage() {
         </div>
       </section>
 
+      <section id="recommendation-map" className="mx-auto max-w-7xl px-6 pt-12">
+        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">
+              Explore the map
+            </p>
+
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-stone-900">
+              See where your recommendations are
+            </h2>
+
+            <p className="mt-3 max-w-2xl text-stone-600">
+              Select a marker to focus its geographical
+              cluster and jump to its attraction cards.
+            </p>
+          </div>
+
+          {selectedClusterId !== null && (
+            <button
+              type="button"
+              onClick={() => setSelectedClusterId(null)}
+              className="self-start rounded-xl border border-stone-300 px-4 py-2 text-sm font-semibold text-stone-700 hover:bg-white"
+            >
+              Show all clusters
+            </button>
+          )}
+        </div>
+
+        <RecommendationMap
+          attractions={topAttractions}
+          selectedClusterId={selectedClusterId}
+          onSelectCluster={handleSelectCluster}
+          selectedAttraction={selectedAttraction}
+          onSelectAttraction={handleSelectAttraction}
+        />
+
+        <p className="mt-3 text-sm text-stone-500">
+          Every attraction shown on the map is also available
+          in the ranked list below.
+        </p>
+      </section>
+
       <section className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
@@ -279,17 +404,31 @@ function RecommendationsPage() {
               <section
                 key={cluster.cluster_id}
                 id={`cluster-${cluster.cluster_id}`}
+                className={
+                  selectedClusterId === cluster.cluster_id
+                    ? "scroll-mt-8 rounded-3xl bg-emerald-50/70 p-5 ring-2 ring-emerald-600"
+                    : "scroll-mt-8 rounded-3xl p-5"
+                }
               >
                 <div className="mb-6 flex flex-col gap-3 border-b border-stone-200 pb-5 sm:flex-row sm:items-end sm:justify-between">
-                  <div>
-                    <p className="text-sm font-bold text-emerald-700">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      handleSelectCluster(cluster.cluster_id)
+                    }
+                    aria-pressed={
+                      selectedClusterId === cluster.cluster_id
+                    }
+                    className="rounded-lg text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700"
+                  >
+                    <span className="text-sm font-bold text-emerald-700">
                       Rank #{cluster.rank}
-                    </p>
+                    </span>
 
-                    <h3 className="mt-1 text-2xl font-bold text-stone-900">
+                    <span className="mt-1 block text-2xl font-bold text-stone-900">
                       {cluster.cluster_label}
-                    </h3>
-                  </div>
+                    </span>
+                  </button>
 
                   <p className="text-lg font-bold text-stone-700">
                     {cluster.average_match_score.toFixed(0)}%
@@ -308,6 +447,10 @@ function RecommendationsPage() {
                           `${attraction.cluster_id}-${attraction.name}`
                         }
                         attraction={attraction}
+                        isSelected={
+                          selectedAttraction === attraction
+                        }
+                        onSelect={handleSelectAttraction}
                       />
                     ),
                   )}
