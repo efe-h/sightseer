@@ -17,6 +17,7 @@ import {
 } from "../api/recommendationsApi";
 
 import AttractionCard from "../components/AttractionCard";
+import AttractionDetailsModal from "../components/AttractionDetailsModal";
 import { useAuth } from "../hooks/useAuth";
 
 import type {
@@ -70,6 +71,13 @@ function RecommendationsPage() {
   const [selectedClusterId, setSelectedClusterId] = useState<number | null>(null);
 
   const [selectedAttraction, setSelectedAttraction] = useState<AttractionRecommendation | null>(null);
+
+  const [
+    detailsAttraction,
+    setDetailsAttraction,
+  ] = useState<AttractionRecommendation | null>(
+    null,
+  );
 
   useEffect(() => {
     if (!token) {
@@ -447,10 +455,11 @@ function handleSelectAttraction(
                           `${attraction.cluster_id}-${attraction.name}`
                         }
                         attraction={attraction}
-                        isSelected={
+                        isSelectedOnMap={
                           selectedAttraction === attraction
                         }
-                        onSelect={handleSelectAttraction}
+                        onViewDetails={setDetailsAttraction}
+                        onShowOnMap={handleSelectAttraction}
                       />
                     ),
                   )}
@@ -476,6 +485,18 @@ function handleSelectAttraction(
           </div>
         )}
       </section>
+
+      {detailsAttraction && (
+        <AttractionDetailsModal
+          attraction={detailsAttraction}
+          onClose={() =>
+            setDetailsAttraction(null)
+          }
+          onShowOnMap={
+            handleSelectAttraction
+          }
+        />
+      )}
     </main>
   );
 }

@@ -6,8 +6,11 @@ import type {
 
 interface AttractionCardProps {
   attraction: AttractionRecommendation;
-  isSelected: boolean;
-  onSelect: (
+  isSelectedOnMap: boolean;
+  onViewDetails: (
+    attraction: AttractionRecommendation,
+  ) => void;
+  onShowOnMap: (
     attraction: AttractionRecommendation,
   ) => void;
 }
@@ -22,8 +25,9 @@ function formatCategory(category: string) {
 
 function AttractionCard({
   attraction,
-  isSelected,
-  onSelect,
+  isSelectedOnMap,
+  onViewDetails,
+  onShowOnMap,
 }: AttractionCardProps) {
   const [imageFailed, setImageFailed] =
     useState(false);
@@ -40,23 +44,10 @@ function AttractionCard({
 
   return (
     <article
-      role="button"
-      tabIndex={0}
-      aria-label={`Show ${attraction.name} on the map`}
-      onClick={() => onSelect(attraction)}
-      onKeyDown={(event) => {
-        if (
-          event.key === "Enter" ||
-          event.key === " "
-        ) {
-          event.preventDefault();
-          onSelect(attraction);
-        }
-      }}
       className={
-        isSelected
-          ? "cursor-pointer overflow-hidden rounded-2xl border border-emerald-600 bg-white shadow-lg ring-4 ring-emerald-200 transition"
-          : "cursor-pointer overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700"
+        isSelectedOnMap
+          ? "overflow-hidden rounded-2xl border border-emerald-600 bg-white shadow-lg ring-4 ring-emerald-200"
+          : "overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm"
       }
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-emerald-100">
@@ -160,11 +151,29 @@ function AttractionCard({
           </p>
         )}
 
-        <p className="mt-4 text-sm font-semibold text-emerald-700">
-          {isSelected
-            ? "Selected on map"
-            : "Select to show on map"}
-        </p>
+        <div className="mt-5 grid grid-cols-2 gap-3">
+          <button
+            type="button"
+            onClick={() =>
+              onViewDetails(attraction)
+            }
+            className="rounded-xl bg-emerald-700 px-3 py-2.5 font-semibold text-white hover:bg-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700"
+          >
+            View details
+          </button>
+
+          <button
+            type="button"
+            onClick={() =>
+              onShowOnMap(attraction)
+            }
+            className="rounded-xl border border-stone-300 px-3 py-2.5 font-semibold text-stone-700 hover:bg-stone-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700"
+          >
+            {isSelectedOnMap
+              ? "Selected on map"
+              : "Show on map"}
+          </button>
+        </div>
       </div>
     </article>
   );
