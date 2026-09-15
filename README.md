@@ -1,4 +1,4 @@
-# sightseer
+# Sightseer
 
 [![Backend tests](https://github.com/efe-h/sightseer/actions/workflows/backend-test.yml/badge.svg)](https://github.com/efe-h/sightseer/actions/workflows/backend-test.yml)
 [![Recommender tests](https://github.com/efe-h/sightseer/actions/workflows/recommender-test.yml/badge.svg)](https://github.com/efe-h/sightseer/actions/workflows/recommender-test.yml)
@@ -119,7 +119,7 @@ Running the model locally avoided API costs during the enrichment stage.
 
 The model is not called by the live application. Enrichment was performed once during preprocessing, and the resulting dataset is loaded directly by the FastAPI recommendation service.
 
-### Geospatial clustering and NLP labeling
+### Geospatial clustering and NLP labelling
 
 Attractions were grouped geographically using K-means++ based on their latitude and longitude.
 
@@ -211,6 +211,8 @@ On Windows PowerShell:
 Copy-Item .env.example .env
 ```
 
+Update `POSTGRES_PASSWORD` with a local database password of your choice. The default is `sightseer_password`.
+
 Generate a JWT signing key:
 
 ```bash
@@ -262,6 +264,11 @@ backend and Python recommendation service. The Java and Python test
 suites run automatically through separate GitHub Actions workflows
 on every push and pull request.
 
+Running the application requires only Git and Docker. Running the
+test suites directly additionally requires Java 17 and Python 3.12.
+Docker must also be running for the Spring integration tests because
+they use Testcontainers.
+
 ### Spring Boot tests
 
 From the `backend` directory:
@@ -305,6 +312,12 @@ is automatically removed after the test run. Docker must therefore be
 running when executing the backend integration tests.
 
 ### Recommendation service tests
+
+From the repository root, install the Python dependencies:
+
+```bash
+python -m pip install -r rag-pipeline/requirements.txt
+```
 
 From the repository root:
 
